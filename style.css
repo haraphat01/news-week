@@ -1,90 +1,204 @@
 * {
-    box-sizing: border-box;
-  }
-
-  body {
-    margin: 0 auto;
-    font-family: "Roboto Condensed", sans-serif;
-  }
-  
-nav a{
-    text-decoration: none;
-    color: white !important;
-    }
-
-    .bg-danger{
-        background-color: #F72210 !important;
-    }
-
-    .subscribe{
-     color: #F72210 !important ;
-     background-color: white !important;
-     border-radius: 2px;
-     font-weight: bold;
-    }
-
-    .grey{
-        color: #A0A0A0 !important;
-    }
-
-
-
-  @media screen and (max-width: 575px) {
-      .top-story-pix{
-       color:  #F72210;
-       position: relative; 
-       bottom:1em;  
-       font-weight: bold;
-       background-color: #EBEAEA;
-       width: 6em;
-      
-      }
-
-      .top-story-h{
-          margin-left: 1em;;
-      }
-      .top-story-h a {
-      text-decoration: none;
-      color: black;
-      }
-
-     .opinion-div{
-        position: absolute;
-        top: 3em;
-        left: 6em;
+  box-sizing: border-box;
 }
 
-.opinion-div1 {
+body {
+  margin: 0 auto;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+nav a {
+  text-decoration: none;
+  color: white !important;
+}
+
+.bg-danger {
+  background-color: #f72210 !important;
+}
+
+.subscribe {
+  color: #f72210 !important ;
+  background-color: white !important;
+  border-radius: 2px;
+  font-weight: bold;
+}
+
+.grey {
+  color: #a0a0a0 !important;
+}
+
+.circle {
+  border-radius: 200px 200px 200px 200px;
+  background-color: black;
+  width: 3em;
+  height: 3em;
+  text-align: center;
+  color: #a0a0a0;
+  position: relative;
+  left: 15em;
+  padding-top: 15px;
+}
+
+@media screen and (max-width: 575px) {
+  .top-story-pix {
+    color: #f72210;
+    position: relative;
+    bottom: 1em;
+    font-weight: bold;
+    background-color: #ebeaea;
+    width: 6em;
+  }
+
+  .top-story-h {
+    margin-left: 1em;
+  }
+  .top-story-h a {
+    text-decoration: none;
+    color: black;
+  }
+
+  .opinion-div {
+    position: absolute;
+    top: 3em;
+    left: 6em;
+  }
+
+  .opinion-div1 {
     position: absolute;
     top: 1em;
-    left: 6em;  
-}
-
-.hr1 {
-    background-color: #F92859;
-    height: 3px;
-}
-
-.debate {
-    position: relative;
-    left: 7em;
-    bottom: 5em;
-}
-
-.two-hr{
-position: relative;
-bottom: 1.2em;
-}
-
-.lazyloaded-debate{
-width: 50px;
-height: 50px;
-position: relative;
-left:30em;
-bottom: 4em;
-}
-
-#debate-p {
-
-}
+    left: 6em;
   }
+
+  .hr1 {
+    background-color: #f92859;
+    height: 3px;
+  }
+
+  .hr2 {
+    background-color: #1c87fb;
+    height: 3px;
+  }
+
+  .trump {
+    position: absolute;
+    top: 1.2em;
+  }
+
+  .trump2 {
+    position: relative;
+    bottom: 1em;
+  }
+
+  .debate {
+    margin-left: 7em;
+    margin-top: 2em;
+  }
+
+  .debate1 {
+    position: absolute;
+    top: 1em;
+    left: 8em;
+  }
+
+  .hr-div-1 {
+    position: relative;
+    top: 2.5em;
+  }
+
+  .hr-div-2 {
+    position: relative;
+    bottom: 1em;
+  }
+
+  .two-hr {
+    position: relative;
+    bottom: 13px;
+  }
+
+  .lazyloaded-debate {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    margin-left: 30em;
+    top: 7.5em;
+  }
+
+  .lazyloaded-debate1 {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    margin-left: 30em;
+    top: 6em;
+  }
+
+  .debate-p {
+    margin-top: 2em;
+  }
+  .debate-p2 {
+    position: absolute;
+    bottom: 1.5em;
+  }
+
+  .more-story-div {
+    position: absolute;
+    left: 7.5em;
+    bottom: 1.5em;
+  }
+
+  .pandemic {
+    position: absolute;
+    bottom: 4.3em;
+    background-color: #c2d4d7;
+    color: black;
+  }
+
+  .pandemic a {
+    color: black;
+  }
+
+  .culture-p {
+    position: absolute;
+    bottom: 5.3em;
+    background-color: #c2d4d7;
+    color: black;
+  }
+
+  .culture-p a {
+    text-decoration: none;
+    color: black;
+  }
+
+  .culture-hr a {
+    text-decoration: none;
+    color: black;
+  }
+
+  .latest-news-p {
+    position: absolute;
+    left: 8em;
+    bottom: 6em;
+  }
+
+  .latest-news-p a {
+    color: black;
+  }
+
+  .n1 {
+    background-color: #f72210;
+    color: white;
+    padding: 0.5em;
+    font-weight: bold;
+  }
+
+  .may {
+      color: #f72210;
+      position: absolute;
+     bottom: 1em;
+     background-color: #EDEDED;
+  }
+
+  .cover {
+    background-color: #f72210;
+    color: white;
+  }
+}

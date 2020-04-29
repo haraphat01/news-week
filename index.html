@@ -1,985 +1,904 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
+
+<head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
-      crossorigin="anonymous"
-    />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" />
     <link rel="stylesheet" href="./style.css" type="text/css" />
     <link rel="stylesheet" href="./reset.css" type="text/css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
     <link
-      rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
-      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
-      crossorigin="anonymous"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Bitter:wght@700&display=swap"
-      rel="stylesheet"
-    />
+        href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap"
+        rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Bitter:wght@700&display=swap" rel="stylesheet" />
 
     <title>NewsTime</title>
-  </head>
-  <body>
+</head>
+
+<body>
     <nav class="navbar navbar-expand-md navbar-light bg-danger">
-      <a class="navbar-brand font-weight-bold" href="#">Newsweek</a>
-      <a class="navbar-brand font-weight-bold" href="#!">SIGN IN</a>
-      <a class="subscribe navbar-brand " href="#!">SUBSCRIBE ></a>
-      <button
-        class="navbar-toggler navbar-toggler-right"
-        type="button"
-        data-toggle="collapse"
-        data-target="#navbarTogglerDemo02"
-        aria-controls="navbarTogglerDemo02"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
-        <span class="navbar-toggler-icon"></span>
-      </button>
+        <a class="navbar-brand font-weight-bold" href="#">Newsweek</a>
+        <a class="navbar-brand font-weight-bold" href="#!">SIGN IN</a>
+        <a class="subscribe navbar-brand " href="#!">SUBSCRIBE ></a>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
+            data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
 
-      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-        <ul class="navbar-nav mr-auto mt-2 mt-md-0">
-          <li class="nav-item active">
-            <a class="nav-link" href="#!">U.S. <span class="sr-only"></span></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#!">World</a>
-          </li>
-          <li class="nav-item active">
-            <a class="nav-link" href="#!"
-              >Business <span class="sr-only"></span
-            ></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#!">Tech & Science</a>
-          </li>
-          <li class="nav-item active">
-            <a class="nav-link" href="#!"
-              >Culture <span class="sr-only"></span
-            ></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#!">Newsgeek</a>
-          </li>
-          <li class="nav-item active">
-            <a class="nav-link" href="#!"
-              >Sport <span class="sr-only"></span
-            ></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#!">Health</a>
-          </li>
-          <li class="nav-item active">
-            <a class="nav-link" href="#!"
-              >The Debate <span class="sr-only"></span
-            ></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#!">Vantage</a>
-          </li>
-        </ul>
-      </div>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <ul class="navbar-nav mr-auto mt-2 mt-md-0">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#!">U.S. <span class="sr-only"></span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#!">World</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#!">Business <span class="sr-only"></span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#!">Tech & Science</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#!">Culture <span class="sr-only"></span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#!">Newsgeek</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#!">Sport <span class="sr-only"></span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#!">Health</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#!">The Debate <span class="sr-only"></span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#!">Vantage</a>
+                </li>
+            </ul>
+        </div>
     </nav>
-    <p class="grey text-md-left p-3">TOP STORY</p>
-    <section class="container top-story">
-      <div class="row mr-0">
-        <div class="col-md">
-          <img
-            src="https://d.newsweek.com/en/full/1584561/fe-class-of-2020-banner.jpg?w=591&amp;h=364&amp;l=74&amp;t=36&amp;f=b67e55edc01c3a49418c54a1dadede38"
-            alt="FE_Class_of_2020_Banner"
-            title="FE_Class_of_2020_Banner"
-            width="550"
-            height="364"
-            class="mapping-md"
-          />
-          <p class="top-story-pix">EDUCATION</p>
-        </div>
-        <h2 class="top-story-h font-weight-bold ">
-          <a href="#">The Class of 2020 Is All Dressed Up With Nowhere to Go</a>
-        </h2><br>
-        <p class="top-story-h ">
-          Students graduating from college this year were born soon after 9/11,
-          grew up during the Great Recession and are launching into adulthood
-          amid a global pandemic. How much more can Gen Z take?
-        </p>
-      </div>
-      <hr>
-    </section>
 
-    <p class="grey text-md-left p-3">FEATURED STORY</p>
-    <section class="container top-story">
-      <div class="row mr-0">
-        <div class="col-md">
-          <img
-            src="https://d.newsweek.com/en/full/1584883/china-eu-europe-disinformation-coronavirus-report.jpg?w=397&amp;h=265&amp;q=90&amp;f=5d4496d54fe122cde75f403c02e59ae6"
-            alt="China, EU, Europe, disinformation, coronavirus, report"
-            title="China, EU, Europe, disinformation, coronavirus, report"
-            width="100%"
-            height="265"
-            class="mapping-sm_md"
-          />
-
-          <p class="top-story-pix">EDUCATION</p>
-        </div>
-        <h2 class="top-story-h font-weight-bold">
-          <a href="#">The Class of 2020 Is All Dressed Up With Nowhere to Go</a>
-        </h2>
-        <p class="top-story-h">
-          Students graduating from college this year were born soon after 9/11,
-          grew up during the Great Recession and are launching into adulthood
-          amid a global pandemic. How much more can Gen Z take?
-        </p>
-        <br>
-      </div>
-
-      <div class="row mr-0">
-        <div class="col-md">
-          <img
-            src="https://d.newsweek.com/en/full/1584807/russia-coronavirus-infections-china-spike-rate-increase.jpg?w=397&amp;h=265&amp;q=90&amp;f=261ac4a349c1cf61db2cd5b5eaa3b690"
-            alt="Russia, coronavirus, infections, China, spike, rate, increase"
-            title="Russia, coronavirus, infections, China, spike, rate, increase"
-            width="100%"
-            height="265"
-          />
-
-          <p class="top-story-pix">EDUCATION</p>
-        </div>
-        <h2 class="top-story-h font-weight-bold">
-          <a href="#">The Class of 2020 Is All Dressed Up With Nowhere to Go</a>
-        </h2>
-        <p class="top-story-h">
-          Students graduating from college this year were born soon after 9/11,
-          grew up during the Great Recession and are launching into adulthood
-          amid a global pandemic. How much more can Gen Z take?
-        </p>
-      </div>
-
-      <div class="row mr-0">
-        <div class="col-md">
-          <img
-            src="https://d.newsweek.com/en/full/1584831/china-masks-faulty-exports-nationalized-production-coronavirus.jpg?w=397&amp;h=265&amp;q=90&amp;f=d011783ab6359fbed0424a6685fe4530"
-            alt="China, masks, faulty, exports, nationalized, production, coronavirus"
-            title="China, masks, faulty, exports, nationalized, production, coronavirus"
-            width="100%"
-            height="265"
-          />
-          <p class="top-story-pix">EDUCATION</p>
-        </div>
-        <h2 class="top-story-h font-weight-bold">
-          <a href="#">The Class of 2020 Is All Dressed Up With Nowhere to Go</a>
-        </h2>
-        <p class="top-story-h">
-          Students graduating from college this year were born soon after 9/11,
-          grew up during the Great Recession and are launching into adulthood
-          amid a global pandemic. How much more can Gen Z take?
-        </p>
-      </div>
-
-      <div class="row mr-0">
-        <div class="col-md">
-          <img
-            src="https://d.newsweek.com/en/full/1584860/tennessee-coronavirus-testing.jpg?w=397&amp;h=265&amp;q=90&amp;f=ccd4922bf8638678914ce9144fb7248a"
-            alt="Tennessee coronavirus testing"
-            title="Tennessee coronavirus testing"
-            width="100%"
-            height="265"
-          />
-          <p class="top-story-pix">EDUCATION</p>
-        </div>
-        <h2 class="top-story-h font-weight-bold">
-          <a href="#">The Class of 2020 Is All Dressed Up With Nowhere to Go</a>
-        </h2>
-        <p class="top-story-h">
-          Students graduating from college this year were born soon after 9/11,
-          grew up during the Great Recession and are launching into adulthood
-          amid a global pandemic. How much more can Gen Z take?
-        </p>
-      </div>
-
-      <div class="row mr-0">
-        <div class="col-md">
-          <img
-            src="https://d.newsweek.com/en/full/1584883/china-eu-europe-disinformation-coronavirus-report.jpg?w=397&amp;h=265&amp;q=90&amp;f=5d4496d54fe122cde75f403c02e59ae6"
-            alt="CHINA"
-            width="100%"
-            height="265"
-            class="mapping-sm_md"
-          />
-          <p class="top-story-pix">EDUCATION</p>
-        </div>
-        <h2 class="top-story-h font-weight-bold">
-          <a href="#">The Class of 2020 Is All Dressed Up With Nowhere to Go</a>
-        </h2>
-        <p class="top-story-h">
-          Students graduating from college this year were born soon after 9/11,
-          grew up during the Great Recession and are launching into adulthood
-          amid a global pandemic. How much more can Gen Z take?
-        </p>
-      </div>
-      <hr>
-    </section>
-
-    <section class="container opinion">
-      <div class="row">
-        <div class="col-md">
-          <p class=" grey text-md-left p-3">OPINION</p>
-          <img
-            src="https://d.newsweek.com/en/full/1584617/candy-j-cooper-marc-aronson.png?w=63&amp;h=63&amp;f=90980aba99ba131c5ed0c80241b0f8b3"
-            alt="Candy J. Cooper and Marc Aronson "
-            title="Candy J. Cooper and Marc Aronson "
-            width="63"
-            height="63"
-            class="lazyloaded"
-            src="https://d.newsweek.com/en/full/1584617/candy-j-cooper-marc-aronson.png?w=63&amp;h=63&amp;f=90980aba99ba131c5ed0c80241b0f8b3"
-          />
-          <div class="opinion-div">
-          <h2 class="font-weight-bold"><a>The Coronavirus Crisis Is Flint, Writ Large</a></h2>
-          <p>BY CANDY J. COOPER WITH MARC ARONSON</p>
-        </div>
-          <hr />
-        </div>
-
-        <div class="col-md">
-          <img
-            data-src="https://d.newsweek.com/en/full/1584432/wenonah-hauter.png?w=63&amp;h=63&amp;f=8d3d6ac8a818381caca91fb635bebd2b"
-            alt="Wenonah Hauter"
-            title="Wenonah Hauter"
-            width="63"
-            height="63"
-            class="lazyloaded"
-            src="https://d.newsweek.com/en/full/1584432/wenonah-hauter.png?w=63&amp;h=63&amp;f=8d3d6ac8a818381caca91fb635bebd2b"
-          />
-          <div class="opinion-div1">
-            <h2 class="font-weight-bold"><a>The Coronavirus Crisis Is Flint, Writ Large</a></h2>
-            <p>BY CANDY J. COOPER WITH MARC ARONSON</p>
-          </div>
-          <hr />
-        </div>
-
-        <div class="col-md">
-          <img
-            data-src="https://d.newsweek.com/en/full/1584408/rick-jackson.png?w=63&amp;h=63&amp;f=b11c446f229510192d710d9e21a72744"
-            alt="Rick Jackson "
-            title="Rick Jackson "
-            width="63"
-            height="63"
-            class="lazyloaded"
-            src="https://d.newsweek.com/en/full/1584408/rick-jackson.png?w=63&amp;h=63&amp;f=b11c446f229510192d710d9e21a72744"
-          />
-          <div class="opinion-div1">
-            <h2 class="font-weight-bold"><a>The Coronavirus Crisis Is Flint, Writ Large</a></h2>
-            <p>BY CANDY J. COOPER WITH MARC ARONSON</p>
-          </div>
-          <hr />
-        </div>
-
-        <div class="col-md">
-          <img
-            src="https://d.newsweek.com/en/full/1584617/candy-j-cooper-marc-aronson.png?w=63&amp;h=63&amp;f=90980aba99ba131c5ed0c80241b0f8b3"
-            alt="Candy J. Cooper and Marc Aronson "
-            title="Candy J. Cooper and Marc Aronson "
-            width="63"
-            height="63"
-            class="lazyloaded"
-            src="https://d.newsweek.com/en/full/1584617/candy-j-cooper-marc-aronson.png?w=63&amp;h=63&amp;f=90980aba99ba131c5ed0c80241b0f8b3"
-          />
-          <div class="opinion-div1">
-            <h2 class="font-weight-bold"><a>The Coronavirus Crisis Is Flint, Writ Large</a></h2>
-            <p>BY CANDY J. COOPER WITH MARC ARONSON</p>
-          </div>
-          <hr />
-        </div>
-      </div>
-    </section>
-    <p class="grey text-md-left p-3">THE DEBATE</p>
     <section class="container">
-      <div class="row">
-        <div class="col-md">
-            <hr class="hr1">
-          <img
-            src="https://d.newsweek.com/en/full/1582305/trump-pence.jpg?w=95&amp;h=95&amp;f=aa2c025d06da441a82387c13a24756c7"
-            alt="trump-pence"
-            title="trump-pence"
-            width="95"
-            height="95"
-            class="lazyloaded"
-            src="https://d.newsweek.com/en/full/1582305/trump-pence.jpg?w=95&amp;h=95&amp;f=aa2c025d06da441a82387c13a24756c7"
-          />
-          <h2 class=" debate font-weight-bold">Trump's Right. The WHO Is Not Fit for Purpose</h2>
-         <div >
-          <hr />
-          <hr/ class="two-hr">
+        <p class="grey text-md-left p-3">TOP STORY</p>
+        <div class="row mr-0">
+            <div class="col-sm-12">
+                <img src="https://d.newsweek.com/en/full/1584561/fe-class-of-2020-banner.jpg?w=591&amp;h=364&amp;l=74&amp;t=36&amp;f=b67e55edc01c3a49418c54a1dadede38"
+                    alt="FE_Class_of_2020_Banner" title="FE_Class_of_2020_Banner" width="550" height="364"
+                    class="mapping-md" />
+                <p class="top-story-pix">EDUCATION</p>
+            </div>
+            <h2 class="top-story-h font-weight-bold ">
+                <a href="#">The Class of 2020 Is All Dressed Up With Nowhere to Go</a>
+            </h2><br>
+            <p class="top-story-h ">
+                Students graduating from college this year were born soon after 9/11,
+                grew up during the Great Recession and are launching into adulthood
+                amid a global pandemic. How much more can Gen Z take?
+            </p>
         </div>
-          <p id="debate-p">BY<a class="font-weight-bold"> NIGEL FARAGE</a></p>
+        <hr>
 
-          <p>VS</p>
-          <img
-            data-src="https://d.newsweek.com/en/full/1563625/nigel-farage.png?w=150&amp;h=150&amp;f=2ae37ecc11a3397b627c243707faa3cb"
-            alt="nigel-farage"
-            title="nigel-farage"
-            width="150"
-            height="150"
-            class=" lazyloaded-debate lazyloaded "
-            src="https://d.newsweek.com/en/full/1563625/nigel-farage.png?w=150&amp;h=150&amp;f=2ae37ecc11a3397b627c243707faa3cb"
-          />
-        </div>
-        
-        <div class="col-md">
-          <img
-            src="https://d.newsweek.com/en/full/1582305/trump-pence.jpg?w=95&amp;h=95&amp;f=aa2c025d06da441a82387c13a24756c7"
-            alt="trump-pence"
-            title="trump-pence"
-            width="95"
-            height="95"
-            class="lazyloaded"
-            src="https://d.newsweek.com/en/full/1582305/trump-pence.jpg?w=95&amp;h=95&amp;f=aa2c025d06da441a82387c13a24756c7"
-          />
-          <h2 class="font-weight-bold">Trump's Right. The WHO Is Not Fit for Purpose</h2>
-          <hr />
-          <hr />
-          <p>BY<a> NIGEL FARAGE</a></p>
-          <img
-            data-src="https://d.newsweek.com/en/full/1563625/nigel-farage.png?w=150&amp;h=150&amp;f=2ae37ecc11a3397b627c243707faa3cb"
-            alt="nigel-farage"
-            title="nigel-farage"
-            width="150"
-            height="150"
-            class="lazyloaded"
-            src="https://d.newsweek.com/en/full/1563625/nigel-farage.png?w=150&amp;h=150&amp;f=2ae37ecc11a3397b627c243707faa3cb"
-          />
-        </div>
-      </div>
-    </section>
-    <p class="text-md-left p-3">MORE STORIES</p>
-    <section class="container">
-      <div class="row">
-        <div class="col-md">
-          <hr />
-          <img
-            src="https://d.newsweek.com/en/full/1584802/covid-19-coronavirus-getty.jpg?w=95&amp;h=95&amp;f=864de27af1af9bce3360e7d2b3bccb4b"
-            alt="covid-19, coronavirus, getty "
-            title="covid-19, coronavirus, getty "
-            width="95"
-            height="95"
-            class="mapping-sm_thumb lazysize lazyloaded"
-            src="https://d.newsweek.com/en/full/1584802/covid-19-coronavirus-getty.jpg?w=95&amp;h=95&amp;f=864de27af1af9bce3360e7d2b3bccb4b"
-          />
-          <h2>
-            <a>Skin Rashes May Be Symptom of Coronavirus, Scientists Say</a>
-          </h2>
-          <p>
-            Researchers in Italy first reported skin problems as a potential
-            COVID-19 symptom in March.
-          </p>
+
+        <p class="grey text-md-left p-3">FEATURED STORY</p>
+
+        <div class="row mr-0">
+            <div class="col-sm-12">
+                <img src="https://d.newsweek.com/en/full/1584883/china-eu-europe-disinformation-coronavirus-report.jpg?w=397&amp;h=265&amp;q=90&amp;f=5d4496d54fe122cde75f403c02e59ae6"
+                    alt="China, EU, Europe, disinformation, coronavirus, report"
+                    title="China, EU, Europe, disinformation, coronavirus, report" width="100%" height="265"
+                    class="mapping-sm_md" />
+
+                <p class="top-story-pix">EDUCATION</p>
+            </div>
+            <h2 class="top-story-h font-weight-bold">
+                <a href="#">The Class of 2020 Is All Dressed Up With Nowhere to Go</a>
+            </h2>
+            <p class="top-story-h">
+                Students graduating from college this year were born soon after 9/11,
+                grew up during the Great Recession and are launching into adulthood
+                amid a global pandemic. How much more can Gen Z take?
+            </p>
+            <br>
         </div>
 
-        <div class="col-md">
-          <hr />
-          <img
-            src="https://d.newsweek.com/en/full/1584802/covid-19-coronavirus-getty.jpg?w=95&amp;h=95&amp;f=864de27af1af9bce3360e7d2b3bccb4b"
-            alt="covid-19, coronavirus, getty "
-            title="covid-19, coronavirus, getty "
-            width="95"
-            height="95"
-            class="mapping-sm_thumb lazysize lazyloaded"
-            src="https://d.newsweek.com/en/full/1584802/covid-19-coronavirus-getty.jpg?w=95&amp;h=95&amp;f=864de27af1af9bce3360e7d2b3bccb4b"
-          />
-          <h2>
-            <a>Skin Rashes May Be Symptom of Coronavirus, Scientists Say</a>
-          </h2>
-          <p>
-            Researchers in Italy first reported skin problems as a potential
-            COVID-19 symptom in March.
-          </p>
-        </div>
-        <div class="col-md">
-          <hr />
-          <img
-            src="https://d.newsweek.com/en/full/1584802/covid-19-coronavirus-getty.jpg?w=95&amp;h=95&amp;f=864de27af1af9bce3360e7d2b3bccb4b"
-            alt="covid-19, coronavirus, getty "
-            title="covid-19, coronavirus, getty "
-            width="95"
-            height="95"
-            class="mapping-sm_thumb lazysize lazyloaded"
-            src="https://d.newsweek.com/en/full/1584802/covid-19-coronavirus-getty.jpg?w=95&amp;h=95&amp;f=864de27af1af9bce3360e7d2b3bccb4b"
-          />
-          <h2>
-            <a>Skin Rashes May Be Symptom of Coronavirus, Scientists Say</a>
-          </h2>
-          <p>
-            Researchers in Italy first reported skin problems as a potential
-            COVID-19 symptom in March.
-          </p>
-        </div>
-        <div class="col-md">
-          <hr />
-          <img
-            src="https://d.newsweek.com/en/full/1584802/covid-19-coronavirus-getty.jpg?w=95&amp;h=95&amp;f=864de27af1af9bce3360e7d2b3bccb4b"
-            alt="covid-19, coronavirus, getty "
-            title="covid-19, coronavirus, getty "
-            width="95"
-            height="95"
-            class="mapping-sm_thumb lazysize lazyloaded"
-            src="https://d.newsweek.com/en/full/1584802/covid-19-coronavirus-getty.jpg?w=95&amp;h=95&amp;f=864de27af1af9bce3360e7d2b3bccb4b"
-          />
-          <h2>
-            <a>Skin Rashes May Be Symptom of Coronavirus, Scientists Say</a>
-          </h2>
-          <p>
-            Researchers in Italy first reported skin problems as a potential
-            COVID-19 symptom in March.
-          </p>
-        </div>
-        <div class="col-md">
-          <hr />
-          <img
-            src="https://d.newsweek.com/en/full/1584802/covid-19-coronavirus-getty.jpg?w=95&amp;h=95&amp;f=864de27af1af9bce3360e7d2b3bccb4b"
-            alt="covid-19, coronavirus, getty "
-            title="covid-19, coronavirus, getty "
-            width="95"
-            height="95"
-            class="mapping-sm_thumb lazysize lazyloaded"
-            src="https://d.newsweek.com/en/full/1584802/covid-19-coronavirus-getty.jpg?w=95&amp;h=95&amp;f=864de27af1af9bce3360e7d2b3bccb4b"
-          />
-          <h2>
-            <a>Skin Rashes May Be Symptom of Coronavirus, Scientists Say</a>
-          </h2>
-          <p>
-            Researchers in Italy first reported skin problems as a potential
-            COVID-19 symptom in March.
-          </p>
-        </div>
-        <div class="col-md">
-          <hr />
-          <img
-            src="https://d.newsweek.com/en/full/1584802/covid-19-coronavirus-getty.jpg?w=95&amp;h=95&amp;f=864de27af1af9bce3360e7d2b3bccb4b"
-            alt="covid-19, coronavirus, getty "
-            title="covid-19, coronavirus, getty "
-            width="95"
-            height="95"
-            class="mapping-sm_thumb lazysize lazyloaded"
-            src="https://d.newsweek.com/en/full/1584802/covid-19-coronavirus-getty.jpg?w=95&amp;h=95&amp;f=864de27af1af9bce3360e7d2b3bccb4b"
-          />
-          <h2>
-            <a>Skin Rashes May Be Symptom of Coronavirus, Scientists Say</a>
-          </h2>
-          <p>
-            Researchers in Italy first reported skin problems as a potential
-            COVID-19 symptom in March.
-          </p>
-        </div>
-        <div class="col-md">
-          <hr />
-          <img
-            src="https://d.newsweek.com/en/full/1584802/covid-19-coronavirus-getty.jpg?w=95&amp;h=95&amp;f=864de27af1af9bce3360e7d2b3bccb4b"
-            alt="covid-19, coronavirus, getty "
-            title="covid-19, coronavirus, getty "
-            width="95"
-            height="95"
-            class="mapping-sm_thumb lazysize lazyloaded"
-            src="https://d.newsweek.com/en/full/1584802/covid-19-coronavirus-getty.jpg?w=95&amp;h=95&amp;f=864de27af1af9bce3360e7d2b3bccb4b"
-          />
-          <h2>
-            <a>Skin Rashes May Be Symptom of Coronavirus, Scientists Say</a>
-          </h2>
-          <p>
-            Researchers in Italy first reported skin problems as a potential
-            COVID-19 symptom in March.
-          </p>
-        </div>
-        <div class="col-md">
-          <hr />
-          <img
-            src="https://d.newsweek.com/en/full/1584802/covid-19-coronavirus-getty.jpg?w=95&amp;h=95&amp;f=864de27af1af9bce3360e7d2b3bccb4b"
-            alt="covid-19, coronavirus, getty "
-            title="covid-19, coronavirus, getty "
-            width="95"
-            height="95"
-            class="mapping-sm_thumb lazysize lazyloaded"
-            src="https://d.newsweek.com/en/full/1584802/covid-19-coronavirus-getty.jpg?w=95&amp;h=95&amp;f=864de27af1af9bce3360e7d2b3bccb4b"
-          />
-          <h2>
-            <a>Skin Rashes May Be Symptom of Coronavirus, Scientists Say</a>
-          </h2>
-          <p>
-            Researchers in Italy first reported skin problems as a potential
-            COVID-19 symptom in March.
-          </p>
-        </div>
-        <div class="col-md">
-          <hr />
-          <img
-            src="https://d.newsweek.com/en/full/1584802/covid-19-coronavirus-getty.jpg?w=95&amp;h=95&amp;f=864de27af1af9bce3360e7d2b3bccb4b"
-            alt="covid-19, coronavirus, getty "
-            title="covid-19, coronavirus, getty "
-            width="95"
-            height="95"
-            class="mapping-sm_thumb lazysize lazyloaded"
-            src="https://d.newsweek.com/en/full/1584802/covid-19-coronavirus-getty.jpg?w=95&amp;h=95&amp;f=864de27af1af9bce3360e7d2b3bccb4b"
-          />
-          <h2>
-            <a>Skin Rashes May Be Symptom of Coronavirus, Scientists Say</a>
-          </h2>
-          <p>
-            Researchers in Italy first reported skin problems as a potential
-            COVID-19 symptom in March.
-          </p>
-        </div>
-        <div class="col-md">
-          <hr />
-          <img
-            src="https://d.newsweek.com/en/full/1584802/covid-19-coronavirus-getty.jpg?w=95&amp;h=95&amp;f=864de27af1af9bce3360e7d2b3bccb4b"
-            alt="covid-19, coronavirus, getty "
-            title="covid-19, coronavirus, getty "
-            width="95"
-            height="95"
-            class="mapping-sm_thumb lazysize lazyloaded"
-            src="https://d.newsweek.com/en/full/1584802/covid-19-coronavirus-getty.jpg?w=95&amp;h=95&amp;f=864de27af1af9bce3360e7d2b3bccb4b"
-          />
-          <h2>
-            <a>Skin Rashes May Be Symptom of Coronavirus, Scientists Say</a>
-          </h2>
-          <p>
-            Researchers in Italy first reported skin problems as a potential
-            COVID-19 symptom in March.
-          </p>
-        </div>
-        <div class="col-md">
-          <hr />
-          <img
-            src="https://d.newsweek.com/en/full/1584802/covid-19-coronavirus-getty.jpg?w=95&amp;h=95&amp;f=864de27af1af9bce3360e7d2b3bccb4b"
-            alt="covid-19, coronavirus, getty "
-            title="covid-19, coronavirus, getty "
-            width="95"
-            height="95"
-            class="mapping-sm_thumb lazysize lazyloaded"
-            src="https://d.newsweek.com/en/full/1584802/covid-19-coronavirus-getty.jpg?w=95&amp;h=95&amp;f=864de27af1af9bce3360e7d2b3bccb4b"
-          />
-          <h2>
-            <a>Skin Rashes May Be Symptom of Coronavirus, Scientists Say</a>
-          </h2>
-          <p>
-            Researchers in Italy first reported skin problems as a potential
-            COVID-19 symptom in March.
-          </p>
-        </div>
-      </div>
-    </section>
-    <p class="text-md-left p-3">HEROES OF PANDEMIC</p>
-    <section class="container">
-      <div class="row">
-        <div class="col-md">
-          <img
-            src="https://d.newsweek.com/en/full/1578426/zoe-monterola-founder-six-feet-supplies.jpg?w=397&amp;h=397&amp;f=f7a624e81aa902878bb39d5fe83e971f"
-            alt="Zoe Monterola founder of Six Feet Supplies"
-            title="Zoe Monterola founder of Six Feet Supplies"
-            width="100%"
-            height="397"
-            class="mapping-mobile lazysize lazyloaded"
-            src="https://d.newsweek.com/en/full/1578426/zoe-monterola-founder-six-feet-supplies.jpg?w=397&amp;h=397&amp;f=f7a624e81aa902878bb39d5fe83e971f"
-          />
-          <h2>
-            <a
-              >Teenagers Shop for the Vulnerable During Coronavirus Emergency</a
-            >
-          </h2>
-          <p>
-            "I almost cried," said a user of Six Feet Supplies, a charity
-            started by teenagers who shop for those susceptible to COVID-19.
-          </p>
+        <div class="row mr-0">
+            <div class="col-sm-12">
+                <img src="https://d.newsweek.com/en/full/1584807/russia-coronavirus-infections-china-spike-rate-increase.jpg?w=397&amp;h=265&amp;q=90&amp;f=261ac4a349c1cf61db2cd5b5eaa3b690"
+                    alt="Russia, coronavirus, infections, China, spike, rate, increase"
+                    title="Russia, coronavirus, infections, China, spike, rate, increase" width="100%" height="265" />
+
+                <p class="top-story-pix">EDUCATION</p>
+            </div>
+            <h2 class="top-story-h font-weight-bold">
+                <a href="#">The Class of 2020 Is All Dressed Up With Nowhere to Go</a>
+            </h2>
+            <p class="top-story-h">
+                Students graduating from college this year were born soon after 9/11,
+                grew up during the Great Recession and are launching into adulthood
+                amid a global pandemic. How much more can Gen Z take?
+            </p>
         </div>
 
-        <div class="col-md">
-          <img
-            src="https://d.newsweek.com/en/full/1578426/zoe-monterola-founder-six-feet-supplies.jpg?w=397&amp;h=397&amp;f=f7a624e81aa902878bb39d5fe83e971f"
-            alt="Zoe Monterola founder of Six Feet Supplies"
-            title="Zoe Monterola founder of Six Feet Supplies"
-            width="100%"
-            height="397"
-            class="mapping-mobile lazysize lazyloaded"
-            src="https://d.newsweek.com/en/full/1578426/zoe-monterola-founder-six-feet-supplies.jpg?w=397&amp;h=397&amp;f=f7a624e81aa902878bb39d5fe83e971f"
-          />
-          <h2>
-            <a
-              >Teenagers Shop for the Vulnerable During Coronavirus Emergency</a
-            >
-          </h2>
-          <p>
-            "I almost cried," said a user of Six Feet Supplies, a charity
-            started by teenagers who shop for those susceptible to COVID-19.
-          </p>
+        <div class="row mr-0">
+            <div class="col-sm-12">
+                <img src="https://d.newsweek.com/en/full/1584831/china-masks-faulty-exports-nationalized-production-coronavirus.jpg?w=397&amp;h=265&amp;q=90&amp;f=d011783ab6359fbed0424a6685fe4530"
+                    alt="China, masks, faulty, exports, nationalized, production, coronavirus"
+                    title="China, masks, faulty, exports, nationalized, production, coronavirus" width="100%"
+                    height="265" />
+                <p class="top-story-pix">EDUCATION</p>
+            </div>
+            <h2 class="top-story-h font-weight-bold">
+                <a href="#">The Class of 2020 Is All Dressed Up With Nowhere to Go</a>
+            </h2>
+            <p class="top-story-h">
+                Students graduating from college this year were born soon after 9/11,
+                grew up during the Great Recession and are launching into adulthood
+                amid a global pandemic. How much more can Gen Z take?
+            </p>
         </div>
 
-        <div class="col-md">
-          <img
-            src="https://d.newsweek.com/en/full/1578426/zoe-monterola-founder-six-feet-supplies.jpg?w=397&amp;h=397&amp;f=f7a624e81aa902878bb39d5fe83e971f"
-            alt="Zoe Monterola founder of Six Feet Supplies"
-            title="Zoe Monterola founder of Six Feet Supplies"
-            width="100%"
-            height="397"
-            class="mapping-mobile lazysize lazyloaded"
-            src="https://d.newsweek.com/en/full/1578426/zoe-monterola-founder-six-feet-supplies.jpg?w=397&amp;h=397&amp;f=f7a624e81aa902878bb39d5fe83e971f"
-          />
-          <h2>
-            <a
-              >Teenagers Shop for the Vulnerable During Coronavirus Emergency</a
-            >
-          </h2>
-          <p>
-            "I almost cried," said a user of Six Feet Supplies, a charity
-            started by teenagers who shop for those susceptible to COVID-19.
-          </p>
-        </div>
-      </div>
-    </section>
-
-    <p class="text-md-left p-3">CULTURE & TRAVEL</p>
-    <section class="container culture">
-      <div class="row">
-        <div class="col-md">
-          <img
-            src="https://d.newsweek.com/en/full/1583546/jane-goodall-gombe-national-park.jpg?w=397&amp;h=397&amp;f=f50a96dc831960add317ee03eb1794d2"
-            alt="Jane Goodall in Gombe National Park"
-            title="Jane Goodall in Gombe National Park"
-            width="100%"
-            height="397"
-            class="mapping-mobile lazysize lazyloaded"
-            src="https://d.newsweek.com/en/full/1583546/jane-goodall-gombe-national-park.jpg?w=397&amp;h=397&amp;f=f50a96dc831960add317ee03eb1794d2"
-          />
-          <h2>
-            <a
-              >Teenagers Shop for the Vulnerable During Coronavirus Emergency</a
-            >
-          </h2>
-          <p>
-            "I almost cried," said a user of Six Feet Supplies, a charity
-            started by teenagers who shop for those susceptible to COVID-19.
-          </p>
+        <div class="row mr-0">
+            <div class="col-sm-12">
+                <img src="https://d.newsweek.com/en/full/1584860/tennessee-coronavirus-testing.jpg?w=397&amp;h=265&amp;q=90&amp;f=ccd4922bf8638678914ce9144fb7248a"
+                    alt="Tennessee coronavirus testing" title="Tennessee coronavirus testing" width="100%"
+                    height="265" />
+                <p class="top-story-pix">EDUCATION</p>
+            </div>
+            <h2 class="top-story-h font-weight-bold">
+                <a href="#">The Class of 2020 Is All Dressed Up With Nowhere to Go</a>
+            </h2>
+            <p class="top-story-h">
+                Students graduating from college this year were born soon after 9/11,
+                grew up during the Great Recession and are launching into adulthood
+                amid a global pandemic. How much more can Gen Z take?
+            </p>
         </div>
 
-        <div class="col-md">
-          <img
-            data-src="https://d.newsweek.com/en/full/1583546/jane-goodall-gombe-national-park.jpg?w=397&amp;h=397&amp;f=f50a96dc831960add317ee03eb1794d2"
-            alt="Jane Goodall in Gombe National Park"
-            title="Jane Goodall in Gombe National Park"
-            width="100%"
-            height="397"
-            class="mapping-mobile lazysize lazyloaded"
-            src="https://d.newsweek.com/en/full/1583546/jane-goodall-gombe-national-park.jpg?w=397&amp;h=397&amp;f=f50a96dc831960add317ee03eb1794d2"
-          />
-          <h2>
-            <a
-              >Teenagers Shop for the Vulnerable During Coronavirus Emergency</a
-            >
-          </h2>
-          <p>
-            "I almost cried," said a user of Six Feet Supplies, a charity
-            started by teenagers who shop for those susceptible to COVID-19.
-          </p>
+        <div class="row mr-0">
+            <div class="col-sm-12">
+                <img src="https://d.newsweek.com/en/full/1584883/china-eu-europe-disinformation-coronavirus-report.jpg?w=397&amp;h=265&amp;q=90&amp;f=5d4496d54fe122cde75f403c02e59ae6"
+                    alt="CHINA" width="100%" height="265" class="mapping-sm_md" />
+                <p class="top-story-pix">EDUCATION</p>
+            </div>
+            <h2 class="top-story-h font-weight-bold">
+                <a href="#">The Class of 2020 Is All Dressed Up With Nowhere to Go</a>
+            </h2>
+            <p class="top-story-h">
+                Students graduating from college this year were born soon after 9/11,
+                grew up during the Great Recession and are launching into adulthood
+                amid a global pandemic. How much more can Gen Z take?
+            </p>
         </div>
+        <hr>
 
-        <div class="col-md">
-          <img
-            data-src="https://d.newsweek.com/en/full/1583546/jane-goodall-gombe-national-park.jpg?w=397&amp;h=397&amp;f=f50a96dc831960add317ee03eb1794d2"
-            alt="Jane Goodall in Gombe National Park"
-            title="Jane Goodall in Gombe National Park"
-            width="100%"
-            height="397"
-            class="mapping-mobile lazysize lazyloaded"
-            src="https://d.newsweek.com/en/full/1583546/jane-goodall-gombe-national-park.jpg?w=397&amp;h=397&amp;f=f50a96dc831960add317ee03eb1794d2"
-          />
-          <h2>
-            <a
-              >Teenagers Shop for the Vulnerable During Coronavirus Emergency</a
-            >
-          </h2>
-          <p>
-            "I almost cried," said a user of Six Feet Supplies, a charity
-            started by teenagers who shop for those susceptible to COVID-19.
-          </p>
-        </div>
-      </div>
-    </section>
-    <p class="text-md-left p-3">LATEST NEWS</p>
-    <section class="container">
-      <div class="row">
-        <div class="col-md">
-          <img
-            src="https://d.newsweek.com/en/full/1584857/covid-19-coronavirus-getty.jpg?w=95&amp;h=95&amp;f=ceac42dad4046f8838e8015ccefda669"
-            alt="covid-19, coronavirus, getty"
-            title="covid-19, coronavirus, getty"
-            width="95"
-            height="95"
-            class="mapping-small lazysize lazyloaded"
-          />
-          <p>
-            <a
-              >U.K. Health Officials Warn of Coronavirus-Related Condition in
-              Children</a
-            >
-          </p>
-          <hr />
-        </div>
 
-        <div class="col-md">
-          <img
-            src="https://d.newsweek.com/en/full/1584857/covid-19-coronavirus-getty.jpg?w=95&amp;h=95&amp;f=ceac42dad4046f8838e8015ccefda669"
-            alt="covid-19, coronavirus, getty"
-            title="covid-19, coronavirus, getty"
-            width="95"
-            height="95"
-            class="mapping-small lazysize lazyloaded"
-          />
-          <p>
-            <a
-              >U.K. Health Officials Warn of Coronavirus-Related Condition in
-              Children</a
-            >
-          </p>
-          <hr />
-        </div>
-
-        <div class="col-md">
-          <img
-            src="https://d.newsweek.com/en/full/1584857/covid-19-coronavirus-getty.jpg?w=95&amp;h=95&amp;f=ceac42dad4046f8838e8015ccefda669"
-            alt="covid-19, coronavirus, getty"
-            title="covid-19, coronavirus, getty"
-            width="95"
-            height="95"
-            class="mapping-small lazysize lazyloaded"
-          />
-          <p>
-            <a
-              >U.K. Health Officials Warn of Coronavirus-Related Condition in
-              Children</a
-            >
-          </p>
-          <hr />
-        </div>
-
-        <div class="col-md">
-          <img
-            src="https://d.newsweek.com/en/full/1584857/covid-19-coronavirus-getty.jpg?w=95&amp;h=95&amp;f=ceac42dad4046f8838e8015ccefda669"
-            alt="covid-19, coronavirus, getty"
-            title="covid-19, coronavirus, getty"
-            width="95"
-            height="95"
-            class="mapping-small lazysize lazyloaded"
-          />
-          <p>
-            <a
-              >U.K. Health Officials Warn of Coronavirus-Related Condition in
-              Children</a
-            >
-          </p>
-          <hr />
-        </div>
-
-        <div class="col-md">
-          <img
-            src="https://d.newsweek.com/en/full/1584857/covid-19-coronavirus-getty.jpg?w=95&amp;h=95&amp;f=ceac42dad4046f8838e8015ccefda669"
-            alt="covid-19, coronavirus, getty"
-            title="covid-19, coronavirus, getty"
-            width="95"
-            height="95"
-            class="mapping-small lazysize lazyloaded"
-          />
-          <p>
-            <a
-              >U.K. Health Officials Warn of Coronavirus-Related Condition in
-              Children</a
-            >
-          </p>
-          <hr />
-        </div>
-      </div>
-    </section>
-    <p class="text-md-center p-3">IN THE MAGAZINE</p>
-    <section class="container">
         <div class="row">
-            <div class="col-md">
-            
-                <img data-src="https://d.newsweek.com/en/full/1582633/may-01-2020-cover.jpg?w=360&amp;h=480&amp;q=90&amp;f=aa6329ca3fcf4bd58f2da596650d190c" alt="May 01, 2020 Cover" title="May 01, 2020 Cover" width="100%" height="480" class="mapping-tablet lazysize lazyloaded" src="https://d.newsweek.com/en/full/1582633/may-01-2020-cover.jpg?w=360&amp;h=480&amp;q=90&amp;f=aa6329ca3fcf4bd58f2da596650d190c">
-            <button>SEE ALL FEATURES</button>
+            <div class="col-sm-12">
+                <p class=" grey text-md-left p-3">OPINION</p>
+                <img src="https://d.newsweek.com/en/full/1584617/candy-j-cooper-marc-aronson.png?w=63&amp;h=63&amp;f=90980aba99ba131c5ed0c80241b0f8b3"
+                    alt="Candy J. Cooper and Marc Aronson " title="Candy J. Cooper and Marc Aronson " width="63"
+                    height="63" class="lazyloaded"
+                    src="https://d.newsweek.com/en/full/1584617/candy-j-cooper-marc-aronson.png?w=63&amp;h=63&amp;f=90980aba99ba131c5ed0c80241b0f8b3" />
+                <div class="opinion-div">
+                    <h2 class="font-weight-bold"><a>The Coronavirus Crisis Is Flint, Writ Large</a></h2>
+                    <p>BY CANDY J. COOPER WITH MARC ARONSON</p>
+                </div>
+                <hr />
             </div>
 
-            <div class="col-md">
-            
-                <img data-src="https://d.newsweek.com/en/full/1582382/fe-whitmer-banner.jpg?w=466&amp;h=311&amp;l=52&amp;t=45&amp;q=90&amp;f=8e32ab6b0456788b57a6b9ebd6b281bf" alt="FE_Whitmer_Banner" title="FE_Whitmer_Banner" width="100%" height="311" class="mapping-tablet lazysize lazyloaded" src="https://d.newsweek.com/en/full/1582382/fe-whitmer-banner.jpg?w=466&amp;h=311&amp;l=52&amp;t=45&amp;q=90&amp;f=8e32ab6b0456788b57a6b9ebd6b281bf">
-            
+            <div class="col-sm-12">
+                <img data-src="https://d.newsweek.com/en/full/1584432/wenonah-hauter.png?w=63&amp;h=63&amp;f=8d3d6ac8a818381caca91fb635bebd2b"
+                    alt="Wenonah Hauter" title="Wenonah Hauter" width="63" height="63" class="lazyloaded"
+                    src="https://d.newsweek.com/en/full/1584432/wenonah-hauter.png?w=63&amp;h=63&amp;f=8d3d6ac8a818381caca91fb635bebd2b" />
+                <div class="opinion-div1">
+                    <h2 class="font-weight-bold"><a>The Coronavirus Crisis Is Flint, Writ Large</a></h2>
+                    <p>BY CANDY J. COOPER WITH MARC ARONSON</p>
+                </div>
+                <hr />
             </div>
 
-            <div class="col-md">
-            <P><span>COVER</span> <a>POLITICS</a></P>
-            <h2><a>Michigan Governor Gretchen Whitmer May Pay a Price for Strict COVID Rules</a></h2>
-            <img data-src="https://d.newsweek.com/en/full/1582550/fe-whitmer-q.jpg?w=466&amp;h=311&amp;l=40&amp;t=43&amp;q=90&amp;f=3a04771e849065ff652402c4dd0333ac" alt="FE_Whitmer_Q&amp;A" title="FE_Whitmer_Q&amp;A" width="100%" height="311" class="mapping-tablet lazysize lazyloaded" src="https://d.newsweek.com/en/full/1582550/fe-whitmer-q.jpg?w=466&amp;h=311&amp;l=40&amp;t=43&amp;q=90&amp;f=3a04771e849065ff652402c4dd0333ac">
-
-               
-            
+            <div class="col-sm-12">
+                <img data-src="https://d.newsweek.com/en/full/1584408/rick-jackson.png?w=63&amp;h=63&amp;f=b11c446f229510192d710d9e21a72744"
+                    alt="Rick Jackson " title="Rick Jackson " width="63" height="63" class="lazyloaded"
+                    src="https://d.newsweek.com/en/full/1584408/rick-jackson.png?w=63&amp;h=63&amp;f=b11c446f229510192d710d9e21a72744" />
+                <div class="opinion-div1">
+                    <h2 class="font-weight-bold"><a>The Coronavirus Crisis Is Flint, Writ Large</a></h2>
+                    <p>BY CANDY J. COOPER WITH MARC ARONSON</p>
+                </div>
+                <hr />
             </div>
 
-            <div class="col-md">
-                <P><span>COVER</span> <a>POLITICS</a></P>
-                <h2><a>Michigan Governor Gretchen Whitmer May Pay a Price for Strict COVID Rules</a></h2>
-                <img data-src="https://d.newsweek.com/en/full/1579624/bronx-nyc-hospital-tent-coronavirus-march-2020.jpg?w=466&amp;h=311&amp;q=90&amp;f=36a1e5404c7d245dc3d11e18ba778436" alt="Bronx, NYC, hospital tent, coronavirus, March 2020" title="Bronx, NYC, hospital tent, coronavirus, March 2020" width="100%" height="311" class="mapping-tablet lazysize lazyloaded" src="https://d.newsweek.com/en/full/1579624/bronx-nyc-hospital-tent-coronavirus-march-2020.jpg?w=466&amp;h=311&amp;q=90&amp;f=36a1e5404c7d245dc3d11e18ba778436">
+            <div class="col-sm-12">
+                <img src="https://d.newsweek.com/en/full/1584617/candy-j-cooper-marc-aronson.png?w=63&amp;h=63&amp;f=90980aba99ba131c5ed0c80241b0f8b3"
+                    alt="Candy J. Cooper and Marc Aronson " title="Candy J. Cooper and Marc Aronson " width="63"
+                    height="63" class="lazyloaded"
+                    src="https://d.newsweek.com/en/full/1584617/candy-j-cooper-marc-aronson.png?w=63&amp;h=63&amp;f=90980aba99ba131c5ed0c80241b0f8b3" />
+                <div class="opinion-div1">
+                    <h2 class="font-weight-bold"><a>The Coronavirus Crisis Is Flint, Writ Large</a></h2>
+                    <p>BY CANDY J. COOPER WITH MARC ARONSON</p>
+                </div>
+                <hr />
             </div>
-
-            <div class="col-md">
-                <P><span>COVER</span> <a>POLITICS</a></P>
-                <h2><a>Michigan Governor Gretchen Whitmer May Pay a Price for Strict COVID Rules</a></h2>
-                <img data-src="https://d.newsweek.com/en/full/1579490/coronavirus-pandemic-covid-19-new-york.jpg?w=466&amp;h=311&amp;q=90&amp;f=9dcb631881b3d1da85b177f53f0fe88c" alt="coronavirus pandemic covid-19 new york " title="coronavirus pandemic covid-19 new york " width="100%" height="311" class="mapping-tablet lazysize lazyloaded" src="https://d.newsweek.com/en/full/1579490/coronavirus-pandemic-covid-19-new-york.jpg?w=466&amp;h=311&amp;q=90&amp;f=9dcb631881b3d1da85b177f53f0fe88c">
-            </div>
-
-            <div class="col-md">
-                <P><span>COVER</span> <a>POLITICS</a></P>
-                <h2><a>Michigan Governor Gretchen Whitmer May Pay a Price for Strict COVID Rules</a></h2>
-                <img data-src="https://d.newsweek.com/en/full/1581592/cul-the-last-dance-banner.jpg?w=466&amp;h=311&amp;l=64&amp;t=52&amp;q=90&amp;f=3d5db0a981677ca610a3170abbc9428d" alt="CUL_The Last Dance_Banner" title="CUL_The Last Dance_Banner" width="100%" height="311" class="mapping-tablet lazysize lazyloaded" src="https://d.newsweek.com/en/full/1581592/cul-the-last-dance-banner.jpg?w=466&amp;h=311&amp;l=64&amp;t=52&amp;q=90&amp;f=3d5db0a981677ca610a3170abbc9428d">
-            </div>
-
-            <div class="col-md">
-                <P><span>COVER</span> <a>POLITICS</a></P>
-                <h2><a>Michigan Governor Gretchen Whitmer May Pay a Price for Strict COVID Rules</a></h2>
-                <img data-src="https://d.newsweek.com/en/full/1581931/cul-uncharted-books-banner.jpg?w=466&amp;h=311&amp;q=90&amp;f=761db87ab1263b6a0614fe17874fc744" alt="CUL_Uncharted_Books_Banner" title="CUL_Uncharted_Books_Banner" width="100%" height="311" class="mapping-tablet lazysize lazyloaded" src="https://d.newsweek.com/en/full/1581931/cul-uncharted-books-banner.jpg?w=466&amp;h=311&amp;q=90&amp;f=761db87ab1263b6a0614fe17874fc744">
-            </div>
-
-            <div class="col-md">
-                <P><span>COVER</span> <a>POLITICS</a></P>
-                <h2><a>Michigan Governor Gretchen Whitmer May Pay a Price for Strict COVID Rules</a></h2>
-                <img src="https://d.newsweek.com/en/full/1582550/fe-whitmer-q.jpg?w=466&amp;h=311&amp;l=40&amp;t=43&amp;q=90&amp;f=3a04771e849065ff652402c4dd0333ac" alt="FE_Whitmer_Q&amp;A" title="FE_Whitmer_Q&amp;A" width="100%" height="311   " class="mapping-tablet lazysize lazyloaded" src="https://d.newsweek.com/en/full/1582550/fe-whitmer-q.jpg?w=466&amp;h=311&amp;l=40&amp;t=43&amp;q=90&amp;f=3a04771e849065ff652402c4dd0333ac">
-           
-            </div>
-            
         </div>
 
-    </section>
-    <p class="text-md-center p-3"> EDITOR'S PICK</p>
-    <section class="container">
-        <div class="row"> 
-            <div class="col-md">
-                <hr>
-                <img data-src="https://d.newsweek.com/en/full/1584789/elon-musk.jpg?w=397&amp;h=295&amp;f=9c3c5c4ca5a02d4f50d039b58b2d979e" alt="Elon Musk " title="Elon Musk " width="100%" height="295" class="mapping-sm_md lazysize lazyloaded" src="https://d.newsweek.com/en/full/1584789/elon-musk.jpg?w=397&amp;h=295&amp;f=9c3c5c4ca5a02d4f50d039b58b2d979e">
-            <h2><a>Elon Musk's SpaceX Starship Spacecraft Just Overcame a Big Hurdle</a></h2>
-            <p>Taking place at a SpaceX site in Texas, the SN4 prototype became the first full-scale build to pass the crucial test following a series of setbacks with prior models including the MK1, SN1 and SN3.</p>
+        <p class="grey text-md-left p-3">THE DEBATE</p>
+      
+            <article class="row">
+                <div class="col-sm-12">
+                    <hr class="hr1">
+                    <img src="https://d.newsweek.com/en/full/1582305/trump-pence.jpg?w=95&amp;h=95&amp;f=aa2c025d06da441a82387c13a24756c7"
+                        alt="trump-pence" title="trump-pence" width="95" height="95" class="trump"
+                        src="https://d.newsweek.com/en/full/1582305/trump-pence.jpg?w=95&amp;h=95&amp;f=aa2c025d06da441a82387c13a24756c7" />
+                    
+                        <h2 class=" debate font-weight-bold">Trump's Right. The WHO Is Not Fit for Purpose</h2>
+                    <div>
+                        <div class="hr-div-1">
+                        <hr />
+                        <hr / class="two-hr">
+                    </div>
+                    </div>
+                    <p class="debate-p">BY<a> NIGEL FARAGE</a></p>
+
+                    <img data-src="https://d.newsweek.com/en/full/1563625/nigel-farage.png?w=150&amp;h=150&amp;f=2ae37ecc11a3397b627c243707faa3cb"
+                    alt="nigel-farage" title="nigel-farage" width="150" height="150"
+                    class="lazyloaded-debate "
+                    src="https://d.newsweek.com/en/full/1563625/nigel-farage.png?w=150&amp;h=150&amp;f=2ae37ecc11a3397b627c243707faa3cb" />
+
+                    <p class="circle">VS</p>
+
+                    <hr class="hr2">
+                  
+                </div>
+
+                <div class="col-sm-12">
+                    <img src="https://d.newsweek.com/en/full/1582305/trump-pence.jpg?w=95&amp;h=95&amp;f=aa2c025d06da441a82387c13a24756c7"
+                        alt="trump-pence" title="trump-pence" width="95" height="95" class="trump2"
+                        src="https://d.newsweek.com/en/full/1582305/trump-pence.jpg?w=95&amp;h=95&amp;f=aa2c025d06da441a82387c13a24756c7" />
+                    
+                        <h2 class=" debate1 font-weight-bold">Trump's Right. The WHO Is Not Fit for Purpose</h2>
+                    <div class="hr-div-2">
+                    <hr />
+                    <hr / class="two-hr">
+                </div>
+
+                    <p class="debate-p2">BY<a> NIGEL FARAGE</a></p>
+                    <img data-src="https://d.newsweek.com/en/full/1563625/nigel-farage.png?w=150&amp;h=150&amp;f=2ae37ecc11a3397b627c243707faa3cb"
+                        alt="nigel-farage" title="nigel-farage" width="150" height="150" class="lazyloaded-debate1"
+                        src="https://d.newsweek.com/en/full/1563625/nigel-farage.png?w=150&amp;h=150&amp;f=2ae37ecc11a3397b627c243707faa3cb" />
+                </div>
+            </article>
+
+            <p class="text-md-left p-3">MORE STORIES</p>
+
+            <div class="row">
+                <div class="col-sm-12">
+                    <hr />
+                    <img src="https://d.newsweek.com/en/full/1584802/covid-19-coronavirus-getty.jpg?w=95&amp;h=95&amp;f=864de27af1af9bce3360e7d2b3bccb4b"
+                        alt="covid-19, coronavirus, getty " title="covid-19, coronavirus, getty " width="95" height="95"
+                        class="mapping-sm_thumb lazysize lazyloaded"
+                        src="https://d.newsweek.com/en/full/1584802/covid-19-coronavirus-getty.jpg?w=95&amp;h=95&amp;f=864de27af1af9bce3360e7d2b3bccb4b" />
+                    <div class="more-story-div">
+                        <h2 class="font-weight-bold">
+                        <a>Skin Rashes May Be Symptom of Coronavirus, Scientists Say</a>
+                    </h2>
+                    <br>
+                    <p>
+                        Researchers in Italy first reported skin problems as a potential
+                        COVID-19 symptom in March. 
+                    </p>
+                </div>
+                </div>
+
+                <div class="col-sm-12">
+                    <hr />
+                    <img src="https://d.newsweek.com/en/full/1584802/covid-19-coronavirus-getty.jpg?w=95&amp;h=95&amp;f=864de27af1af9bce3360e7d2b3bccb4b"
+                        alt="covid-19, coronavirus, getty " title="covid-19, coronavirus, getty " width="95" height="95"
+                        class="mapping-sm_thumb lazysize lazyloaded"
+                        src="https://d.newsweek.com/en/full/1584802/covid-19-coronavirus-getty.jpg?w=95&amp;h=95&amp;f=864de27af1af9bce3360e7d2b3bccb4b" />
+                        <div class="more-story-div">
+                            <h2 class="font-weight-bold">
+                            <a>Skin Rashes May Be Symptom of Coronavirus, Scientists Say</a>
+                        </h2>
+                        <br>
+                        <p>
+                            Researchers in Italy first reported skin problems as a potential
+                            COVID-19 symptom in March. 
+                        </p>
+                    </div>               
+                </div>
+                <div class="col-sm-12">
+                    <hr />
+                    <img src="https://d.newsweek.com/en/full/1584802/covid-19-coronavirus-getty.jpg?w=95&amp;h=95&amp;f=864de27af1af9bce3360e7d2b3bccb4b"
+                        alt="covid-19, coronavirus, getty " title="covid-19, coronavirus, getty " width="95" height="95"
+                        class="mapping-sm_thumb lazysize lazyloaded"
+                        src="https://d.newsweek.com/en/full/1584802/covid-19-coronavirus-getty.jpg?w=95&amp;h=95&amp;f=864de27af1af9bce3360e7d2b3bccb4b" />
+                        <div class="more-story-div">
+                            <h2 class="font-weight-bold">
+                            <a>Skin Rashes May Be Symptom of Coronavirus, Scientists Say</a>
+                        </h2>
+                        <br>
+                        <p>
+                            Researchers in Italy first reported skin problems as a potential
+                            COVID-19 symptom in March. 
+                        </p>
+                    </div>
+                </div>
+                <div class="col-sm-12">
+                    <hr />
+                    <img src="https://d.newsweek.com/en/full/1584802/covid-19-coronavirus-getty.jpg?w=95&amp;h=95&amp;f=864de27af1af9bce3360e7d2b3bccb4b"
+                        alt="covid-19, coronavirus, getty " title="covid-19, coronavirus, getty " width="95" height="95"
+                        class="mapping-sm_thumb lazysize lazyloaded"
+                        src="https://d.newsweek.com/en/full/1584802/covid-19-coronavirus-getty.jpg?w=95&amp;h=95&amp;f=864de27af1af9bce3360e7d2b3bccb4b" />
+                        <div class="more-story-div">
+                            <h2 class="font-weight-bold">
+                            <a>Skin Rashes May Be Symptom of Coronavirus, Scientists Say</a>
+                        </h2>
+                        <br>
+                        <p>
+                            Researchers in Italy first reported skin problems as a potential
+                            COVID-19 symptom in March. 
+                        </p>
+                    </div>                </div>
+                <div class="col-sm-12">
+                    <hr />
+                    <img src="https://d.newsweek.com/en/full/1584802/covid-19-coronavirus-getty.jpg?w=95&amp;h=95&amp;f=864de27af1af9bce3360e7d2b3bccb4b"
+                        alt="covid-19, coronavirus, getty " title="covid-19, coronavirus, getty " width="95" height="95"
+                        class="mapping-sm_thumb lazysize lazyloaded"
+                        src="https://d.newsweek.com/en/full/1584802/covid-19-coronavirus-getty.jpg?w=95&amp;h=95&amp;f=864de27af1af9bce3360e7d2b3bccb4b" />
+                        <div class="more-story-div">
+                            <h2 class="font-weight-bold">
+                            <a>Skin Rashes May Be Symptom of Coronavirus, Scientists Say</a>
+                        </h2>
+                        <br>
+                        <p>
+                            Researchers in Italy first reported skin problems as a potential
+                            COVID-19 symptom in March. 
+                        </p>
+                    </div>
+                </div>
+                <div class="col-sm-12">
+                    <hr />
+                    <img src="https://d.newsweek.com/en/full/1584802/covid-19-coronavirus-getty.jpg?w=95&amp;h=95&amp;f=864de27af1af9bce3360e7d2b3bccb4b"
+                        alt="covid-19, coronavirus, getty " title="covid-19, coronavirus, getty " width="95" height="95"
+                        class="mapping-sm_thumb lazysize lazyloaded"
+                        src="https://d.newsweek.com/en/full/1584802/covid-19-coronavirus-getty.jpg?w=95&amp;h=95&amp;f=864de27af1af9bce3360e7d2b3bccb4b" />
+                        <div class="more-story-div">
+                            <h2 class="font-weight-bold">
+                            <a>Skin Rashes May Be Symptom of Coronavirus, Scientists Say</a>
+                        </h2>
+                        <br>
+                        <p>
+                            Researchers in Italy first reported skin problems as a potential
+                            COVID-19 symptom in March. 
+                        </p>
+                    </div>                </div>
+                <div class="col-sm-12">
+                    <hr />
+                    <img src="https://d.newsweek.com/en/full/1584802/covid-19-coronavirus-getty.jpg?w=95&amp;h=95&amp;f=864de27af1af9bce3360e7d2b3bccb4b"
+                        alt="covid-19, coronavirus, getty " title="covid-19, coronavirus, getty " width="95" height="95"
+                        class="mapping-sm_thumb lazysize lazyloaded"
+                        src="https://d.newsweek.com/en/full/1584802/covid-19-coronavirus-getty.jpg?w=95&amp;h=95&amp;f=864de27af1af9bce3360e7d2b3bccb4b" />
+                        <div class="more-story-div">
+                            <h2 class="font-weight-bold">
+                            <a>Skin Rashes May Be Symptom of Coronavirus, Scientists Say</a>
+                        </h2>
+                        <br>
+                        <p>
+                            Researchers in Italy first reported skin problems as a potential
+                            COVID-19 symptom in March. 
+                        </p>
+                    </div>
+                </div>
+                <div class="col-sm-12">
+                    <hr />
+                    <img src="https://d.newsweek.com/en/full/1584802/covid-19-coronavirus-getty.jpg?w=95&amp;h=95&amp;f=864de27af1af9bce3360e7d2b3bccb4b"
+                        alt="covid-19, coronavirus, getty " title="covid-19, coronavirus, getty " width="95" height="95"
+                        class="mapping-sm_thumb lazysize lazyloaded"
+                        src="https://d.newsweek.com/en/full/1584802/covid-19-coronavirus-getty.jpg?w=95&amp;h=95&amp;f=864de27af1af9bce3360e7d2b3bccb4b" />
+                        <div class="more-story-div">
+                            <h2 class="font-weight-bold">
+                            <a>Skin Rashes May Be Symptom of Coronavirus, Scientists Say</a>
+                        </h2>
+                        <br>
+                        <p>
+                            Researchers in Italy first reported skin problems as a potential
+                            COVID-19 symptom in March. 
+                        </p>
+                    </div>
+                </div>
+                <div class="col-sm-12">
+                    <hr />
+                    <img src="https://d.newsweek.com/en/full/1584802/covid-19-coronavirus-getty.jpg?w=95&amp;h=95&amp;f=864de27af1af9bce3360e7d2b3bccb4b"
+                        alt="covid-19, coronavirus, getty " title="covid-19, coronavirus, getty " width="95" height="95"
+                        class="mapping-sm_thumb lazysize lazyloaded"
+                        src="https://d.newsweek.com/en/full/1584802/covid-19-coronavirus-getty.jpg?w=95&amp;h=95&amp;f=864de27af1af9bce3360e7d2b3bccb4b" />
+                        <div class="more-story-div">
+                            <h2 class="font-weight-bold">
+                            <a>Skin Rashes May Be Symptom of Coronavirus, Scientists Say</a>
+                        </h2>
+                        <br>
+                        <p>
+                            Researchers in Italy first reported skin problems as a potential
+                            COVID-19 symptom in March. 
+                        </p>
+                    </div>
+                </div>
+                <div class="col-sm-12">
+                    <hr />
+                    <img src="https://d.newsweek.com/en/full/1584802/covid-19-coronavirus-getty.jpg?w=95&amp;h=95&amp;f=864de27af1af9bce3360e7d2b3bccb4b"
+                        alt="covid-19, coronavirus, getty " title="covid-19, coronavirus, getty " width="95" height="95"
+                        class="mapping-sm_thumb lazysize lazyloaded"
+                        src="https://d.newsweek.com/en/full/1584802/covid-19-coronavirus-getty.jpg?w=95&amp;h=95&amp;f=864de27af1af9bce3360e7d2b3bccb4b" />
+                        <div class="more-story-div">
+                            <h2 class="font-weight-bold">
+                            <a>Skin Rashes May Be Symptom of Coronavirus, Scientists Say</a>
+                        </h2>
+                        <br>
+                        <p>
+                            Researchers in Italy first reported skin problems as a potential
+                            COVID-19 symptom in March. 
+                        </p>
+                    </div>
+                </div>
+                <div class="col-sm-12">
+                    <hr />
+                    <img src="https://d.newsweek.com/en/full/1584802/covid-19-coronavirus-getty.jpg?w=95&amp;h=95&amp;f=864de27af1af9bce3360e7d2b3bccb4b"
+                        alt="covid-19, coronavirus, getty " title="covid-19, coronavirus, getty " width="95" height="95"
+                        class="mapping-sm_thumb lazysize lazyloaded"
+                        src="https://d.newsweek.com/en/full/1584802/covid-19-coronavirus-getty.jpg?w=95&amp;h=95&amp;f=864de27af1af9bce3360e7d2b3bccb4b" />
+                        <div class="more-story-div">
+                            <h2 class="font-weight-bold">
+                            <a>Skin Rashes May Be Symptom of Coronavirus, Scientists Say</a>
+                        </h2>
+                        <br>
+                        <p>
+                            Researchers in Italy first reported skin problems as a potential
+                            COVID-19 symptom in March. 
+                        </p>
+                    </div>
+                </div>
             </div>
 
-            <div class="col-md">
-                
-                <img data-src="https://d.newsweek.com/en/full/1584789/elon-musk.jpg?w=397&amp;h=295&amp;f=9c3c5c4ca5a02d4f50d039b58b2d979e" alt="Elon Musk " title="Elon Musk " width="100%" height="295" class="mapping-sm_md lazysize lazyloaded" src="https://d.newsweek.com/en/full/1584789/elon-musk.jpg?w=397&amp;h=295&amp;f=9c3c5c4ca5a02d4f50d039b58b2d979e">
-            <h2><a>Elon Musk's SpaceX Starship Spacecraft Just Overcame a Big Hurdle</a></h2>
-            <p>Taking place at a SpaceX site in Texas, the SN4 prototype became the first full-scale build to pass the crucial test following a series of setbacks with prior models including the MK1, SN1 and SN3.</p>
+            <p class=" grey text-md-left p-3">HEROES OF PANDEMIC</p>
+
+            <div class="row">
+                <div class="col-sm-12">
+                    <img src="https://d.newsweek.com/en/full/1578426/zoe-monterola-founder-six-feet-supplies.jpg?w=397&amp;h=397&amp;f=f7a624e81aa902878bb39d5fe83e971f"
+                        alt="Zoe Monterola founder of Six Feet Supplies"
+                        title="Zoe Monterola founder of Six Feet Supplies" width="100%" height="397"
+                        class="mapping-mobile lazysize lazyloaded"
+                        src="https://d.newsweek.com/en/full/1578426/zoe-monterola-founder-six-feet-supplies.jpg?w=397&amp;h=397&amp;f=f7a624e81aa902878bb39d5fe83e971f" />
+                    
+                        <p class="pandemic text-decoration-none "><a href="#">pandemic Heroes</a></pa>
+                    
+                        <h2 class="font-weight-bold">
+                        <a>Teenagers Shop for the Vulnerable During Coronavirus Emergency</a>
+                    </h2>
+                    <br>
+                    <p>
+                        "I almost cried," said a user of Six Feet Supplies, a charity
+                        started by teenagers who shop for those susceptible to COVID-19.
+                    </p>
+                </div>
+
+                <div class="col-sm-12">
+                    <img src="https://d.newsweek.com/en/full/1578426/zoe-monterola-founder-six-feet-supplies.jpg?w=397&amp;h=397&amp;f=f7a624e81aa902878bb39d5fe83e971f"
+                        alt="Zoe Monterola founder of Six Feet Supplies"
+                        title="Zoe Monterola founder of Six Feet Supplies" width="100%" height="397"
+                        class="mapping-mobile lazysize lazyloaded"
+                        src="https://d.newsweek.com/en/full/1578426/zoe-monterola-founder-six-feet-supplies.jpg?w=397&amp;h=397&amp;f=f7a624e81aa902878bb39d5fe83e971f" />
+                    
+                        <p class="pandemic text-decoration-none "><a href="#">pandemic Heroes</a></pa>
+                        <h2 class="font-weight-bold">
+                        <a>Teenagers Shop for the Vulnerable During Coronavirus Emergency</a>
+                    </h2>
+                    <br>
+                    <p>
+                        "I almost cried," said a user of Six Feet Supplies, a charity
+                        started by teenagers who shop for those susceptible to COVID-19.
+                    </p>
+                </div>
+
+                <div class="col-sm-12">
+                    <img src="https://d.newsweek.com/en/full/1578426/zoe-monterola-founder-six-feet-supplies.jpg?w=397&amp;h=397&amp;f=f7a624e81aa902878bb39d5fe83e971f"
+                        alt="Zoe Monterola founder of Six Feet Supplies"
+                        title="Zoe Monterola founder of Six Feet Supplies" width="100%" height="397"
+                        class="mapping-mobile lazysize lazyloaded"
+                        src="https://d.newsweek.com/en/full/1578426/zoe-monterola-founder-six-feet-supplies.jpg?w=397&amp;h=397&amp;f=f7a624e81aa902878bb39d5fe83e971f" />
+                    
+                        <p class="pandemic text-decoration-none "><a href="#">pandemic Heroes</a></pa>
+                        <h2 class="font-weight-bold ">
+                        <a>Teenagers Shop for the Vulnerable During Coronavirus Emergency</a>
+                    </h2>
+                    <br>
+                    <p>
+                        "I almost cried," said a user of Six Feet Supplies, a charity
+                        started by teenagers who shop for those susceptible to COVID-19.
+                    </p>
+                </div>
             </div>
 
-            <div class="col-md">
-                
-                <img data-src="https://d.newsweek.com/en/full/1584789/elon-musk.jpg?w=397&amp;h=295&amp;f=9c3c5c4ca5a02d4f50d039b58b2d979e" alt="Elon Musk " title="Elon Musk " width="100%" height="295" class="mapping-sm_md lazysize lazyloaded" src="https://d.newsweek.com/en/full/1584789/elon-musk.jpg?w=397&amp;h=295&amp;f=9c3c5c4ca5a02d4f50d039b58b2d979e">
-            <h2><a>Elon Musk's SpaceX Starship Spacecraft Just Overcame a Big Hurdle</a></h2>
-            <p>Taking place at a SpaceX site in Texas, the SN4 prototype became the first full-scale build to pass the crucial test following a series of setbacks with prior models including the MK1, SN1 and SN3.</p>
+
+            <p class="grey text-md-left p-3">CULTURE & TRAVEL</p>
+
+            <div class="row">
+                <div class="col-sm-12">
+                    <img data-src="https://d.newsweek.com/en/full/1583546/jane-goodall-gombe-national-park.jpg?w=397&amp;h=397&amp;f=f50a96dc831960add317ee03eb1794d2"
+                    alt="Jane Goodall in Gombe National Park" title="Jane Goodall in Gombe National Park"
+                    width="100%" height="397" class="mapping-mobile lazysize lazyloaded"
+                    src="https://d.newsweek.com/en/full/1583546/jane-goodall-gombe-national-park.jpg?w=397&amp;h=397&amp;f=f50a96dc831960add317ee03eb1794d2" />
+                    
+                    <p class="culture-p">Jane Goodall</p>
+                    <h2 class="font-weight-bold culture-hr">
+                    <a href="#">Teenagers Shop for the Vulnerable During Coronavirus Emergency</a>
+                </h2>
+                <br>
+                <p>
+                    "I almost cried," said a user of Six Feet Supplies, a charity
+                    started by teenagers who shop for those susceptible to COVID-19.
+                </p>
+                <br>
             </div>
 
-            <div class="col-md">
-                
-                <img data-src="https://d.newsweek.com/en/full/1584789/elon-musk.jpg?w=397&amp;h=295&amp;f=9c3c5c4ca5a02d4f50d039b58b2d979e" alt="Elon Musk " title="Elon Musk " width="100%" height="295" class="mapping-sm_md lazysize lazyloaded" src="https://d.newsweek.com/en/full/1584789/elon-musk.jpg?w=397&amp;h=295&amp;f=9c3c5c4ca5a02d4f50d039b58b2d979e">
-            <h2><a>Elon Musk's SpaceX Starship Spacecraft Just Overcame a Big Hurdle</a></h2>
-            <p>Taking place at a SpaceX site in Texas, the SN4 prototype became the first full-scale build to pass the crucial test following a series of setbacks with prior models including the MK1, SN1 and SN3.</p>
+                <div class="col-sm-12">
+                    <img data-src="https://d.newsweek.com/en/full/1583546/jane-goodall-gombe-national-park.jpg?w=397&amp;h=397&amp;f=f50a96dc831960add317ee03eb1794d2"
+                        alt="Jane Goodall in Gombe National Park" title="Jane Goodall in Gombe National Park"
+                        width="100%" height="397" class="mapping-mobile lazysize lazyloaded"
+                        src="https://d.newsweek.com/en/full/1583546/jane-goodall-gombe-national-park.jpg?w=397&amp;h=397&amp;f=f50a96dc831960add317ee03eb1794d2" />
+                        
+                        <p class="culture-p">Jane Goodall</p>
+                        <h2 class="font-weight-bold culture-hr ">
+                        <a href="#">Teenagers Shop for the Vulnerable During Coronavirus Emergency</a>
+                    </h2>
+                    <br>
+                    <p>
+                        "I almost cried," said a user of Six Feet Supplies, a charity
+                        started by teenagers who shop for those susceptible to COVID-19.
+                    </p>
+                    <br>
+                </div>
+
+                <div class="col-sm-12">
+                    <img data-src="https://d.newsweek.com/en/full/1583546/jane-goodall-gombe-national-park.jpg?w=397&amp;h=397&amp;f=f50a96dc831960add317ee03eb1794d2"
+                        alt="Jane Goodall in Gombe National Park" title="Jane Goodall in Gombe National Park"
+                        width="100%" height="397" class="mapping-mobile lazysize lazyloaded"
+                        src="https://d.newsweek.com/en/full/1583546/jane-goodall-gombe-national-park.jpg?w=397&amp;h=397&amp;f=f50a96dc831960add317ee03eb1794d2" />
+                    
+                        <p class="culture-p">Jane Goodall</p>
+                        <h2 class="font-weight-bold culture-hr">
+                        <a href="#">Teenagers Shop for the Vulnerable During Coronavirus Emergency</a>
+                    </h2>
+                    <br>
+                    <p>
+                        "I almost cried," said a user of Six Feet Supplies, a charity
+                        started by teenagers who shop for those susceptible to COVID-19.
+                    </p>
+
+                    <br>
+                </div>
             </div>
 
-            <div class="col-md">
-                
-                <img data-src="https://d.newsweek.com/en/full/1584789/elon-musk.jpg?w=397&amp;h=295&amp;f=9c3c5c4ca5a02d4f50d039b58b2d979e" alt="Elon Musk " title="Elon Musk " width="100%" height="295" class="mapping-sm_md lazysize lazyloaded" src="https://d.newsweek.com/en/full/1584789/elon-musk.jpg?w=397&amp;h=295&amp;f=9c3c5c4ca5a02d4f50d039b58b2d979e">
-            <h2><a>Elon Musk's SpaceX Starship Spacecraft Just Overcame a Big Hurdle</a></h2>
-            <p>Taking place at a SpaceX site in Texas, the SN4 prototype became the first full-scale build to pass the crucial test following a series of setbacks with prior models including the MK1, SN1 and SN3.</p>
+            <p class="grey text-md-left p-3">LATEST NEWS</p>
+
+            <div class="row">
+                <div class="col-sm-12">
+                    <img src="https://d.newsweek.com/en/full/1584857/covid-19-coronavirus-getty.jpg?w=95&amp;h=95&amp;f=ceac42dad4046f8838e8015ccefda669"
+                        alt="covid-19, coronavirus, getty" title="covid-19, coronavirus, getty" width="95" height="95"
+                        class="mapping-small lazysize lazyloaded" />
+                    <p class="latest-news-p">
+                        <a href="#">U.K. Health Officials Warn of Coronavirus-Related Condition in
+                            Children</a>
+                    </p>
+                    <hr />
+                </div>
+
+                <div class="col-sm-12">
+                    <img src="https://d.newsweek.com/en/full/1584857/covid-19-coronavirus-getty.jpg?w=95&amp;h=95&amp;f=ceac42dad4046f8838e8015ccefda669"
+                        alt="covid-19, coronavirus, getty" title="covid-19, coronavirus, getty" width="95" height="95"
+                        class="mapping-small lazysize lazyloaded" />
+                        <p class="latest-news-p">
+                            <a href="#">U.K. Health Officials Warn of Coronavirus-Related Condition in
+                                Children</a>
+                        </p>
+                    <hr />
+                </div>
+
+                <div class="col-sm-12">
+                    <img src="https://d.newsweek.com/en/full/1584857/covid-19-coronavirus-getty.jpg?w=95&amp;h=95&amp;f=ceac42dad4046f8838e8015ccefda669"
+                        alt="covid-19, coronavirus, getty" title="covid-19, coronavirus, getty" width="95" height="95"
+                        class="mapping-small lazysize lazyloaded" />
+                        <p class="latest-news-p">
+                            <a href="#">U.K. Health Officials Warn of Coronavirus-Related Condition in
+                                Children</a>
+                        </p>
+                    <hr />
+                </div>
+
+                <div class="col-sm-12">
+                    <img src="https://d.newsweek.com/en/full/1584857/covid-19-coronavirus-getty.jpg?w=95&amp;h=95&amp;f=ceac42dad4046f8838e8015ccefda669"
+                        alt="covid-19, coronavirus, getty" title="covid-19, coronavirus, getty" width="95" height="95"
+                        class="mapping-small lazysize lazyloaded" />
+                    <p class="latest-news-p">
+                        <a href="#">U.K. Health Officials Warn of Coronavirus-Related Condition in
+                            Children</a>
+                    </p>
+                    <hr />
+                </div>
+
+                <div class="col-sm-12">
+                    <img src="https://d.newsweek.com/en/full/1584857/covid-19-coronavirus-getty.jpg?w=95&amp;h=95&amp;f=ceac42dad4046f8838e8015ccefda669"
+                        alt="covid-19, coronavirus, getty" title="covid-19, coronavirus, getty" width="95" height="95"
+                        class="mapping-small lazysize lazyloaded" />
+                    <p class="latest-news-p">
+                        <a href="#">U.K. Health Officials Warn of Coronavirus-Related Condition in
+                            Children</a>
+                    </p>
+                    <hr />
+                </div>
             </div>
 
-            <div class="col-md">
-                
-                <img data-src="https://d.newsweek.com/en/full/1584789/elon-musk.jpg?w=397&amp;h=295&amp;f=9c3c5c4ca5a02d4f50d039b58b2d979e" alt="Elon Musk " title="Elon Musk " width="100%" height="295" class="mapping-sm_md lazysize lazyloaded" src="https://d.newsweek.com/en/full/1584789/elon-musk.jpg?w=397&amp;h=295&amp;f=9c3c5c4ca5a02d4f50d039b58b2d979e">
-            <h2><a>Elon Musk's SpaceX Starship Spacecraft Just Overcame a Big Hurdle</a></h2>
-            <p>Taking place at a SpaceX site in Texas, the SN4 prototype became the first full-scale build to pass the crucial test following a series of setbacks with prior models including the MK1, SN1 and SN3.</p>
+            <p class="text-sm-center font-weight-bold p-3"> <span class="n1">N</span> IN THE MAGAZINE</p>
+
+            <div class="row">
+                <div class="col-sm-12">
+
+                    <img data-src="https://d.newsweek.com/en/full/1582633/may-01-2020-cover.jpg?w=360&amp;h=480&amp;q=90&amp;f=aa6329ca3fcf4bd58f2da596650d190c"
+                        alt="May 01, 2020 Cover" title="May 01, 2020 Cover" width="100%" height="480"
+                        class="mapping-tablet lazysize lazyloaded"
+                        src="https://d.newsweek.com/en/full/1582633/may-01-2020-cover.jpg?w=360&amp;h=480&amp;q=90&amp;f=aa6329ca3fcf4bd58f2da596650d190c">
+                    <p class="may"> MAY 01 ISSUE</p>
+                        
+                </div>
+                <p class="text-sm-center font-weight-bold "> <a href="#">SEE ALL FEATURES ></a> </p>
+                <div class="col-sm-12">
+
+                    <img data-src="https://d.newsweek.com/en/full/1582382/fe-whitmer-banner.jpg?w=466&amp;h=311&amp;l=52&amp;t=45&amp;q=90&amp;f=8e32ab6b0456788b57a6b9ebd6b281bf"
+                        alt="FE_Whitmer_Banner" title="FE_Whitmer_Banner" width="100%" height="311"
+                        class="mapping-tablet lazysize lazyloaded"
+                        src="https://d.newsweek.com/en/full/1582382/fe-whitmer-banner.jpg?w=466&amp;h=311&amp;l=52&amp;t=45&amp;q=90&amp;f=8e32ab6b0456788b57a6b9ebd6b281bf">
+
+                </div>
+
+                <div class="col-sm-12">
+                    <P class="font-weight-bold"><span class="cover">COVER</span> <a href="#">POLITICS</a></P>
+                    <br>
+                    <h2><a>Michigan Governor Gretchen Whitmer May Pay a Price for Strict COVID Rules</a></h2>
+                    <br>
+                    <img data-src="https://d.newsweek.com/en/full/1582550/fe-whitmer-q.jpg?w=466&amp;h=311&amp;l=40&amp;t=43&amp;q=90&amp;f=3a04771e849065ff652402c4dd0333ac"
+                        alt="FE_Whitmer_Q&amp;A" title="FE_Whitmer_Q&amp;A" width="100%" height="311"
+                        class="mapping-tablet lazysize lazyloaded"
+                        src="https://d.newsweek.com/en/full/1582550/fe-whitmer-q.jpg?w=466&amp;h=311&amp;l=40&amp;t=43&amp;q=90&amp;f=3a04771e849065ff652402c4dd0333ac">
+
+
+
+                </div>
+
+                <div class="col-sm-12">
+                    <P class="font-weight-bold"><span  class="cover">COVER</span> <a href="#">POLITICS</a></P>
+                    <br>
+                    <h2><a>Michigan Governor Gretchen Whitmer May Pay a Price for Strict COVID Rules</a></h2>
+                    <br>
+                    <img data-src="https://d.newsweek.com/en/full/1579624/bronx-nyc-hospital-tent-coronavirus-march-2020.jpg?w=466&amp;h=311&amp;q=90&amp;f=36a1e5404c7d245dc3d11e18ba778436"
+                        alt="Bronx, NYC, hospital tent, coronavirus, March 2020"
+                        title="Bronx, NYC, hospital tent, coronavirus, March 2020" width="100%" height="311"
+                        class="mapping-tablet lazysize lazyloaded"
+                        src="https://d.newsweek.com/en/full/1579624/bronx-nyc-hospital-tent-coronavirus-march-2020.jpg?w=466&amp;h=311&amp;q=90&amp;f=36a1e5404c7d245dc3d11e18ba778436">
+                </div>
+
+                <div class="col-sm-12">
+                    <P class="font-weight-bold"><span  class="cover">COVER</span> <a href="#">POLITICS</a></P>
+                    <br>
+                    <h2><a>Michigan Governor Gretchen Whitmer May Pay a Price for Strict COVID Rules</a></h2>
+                    <br>
+                    <img data-src="https://d.newsweek.com/en/full/1579490/coronavirus-pandemic-covid-19-new-york.jpg?w=466&amp;h=311&amp;q=90&amp;f=9dcb631881b3d1da85b177f53f0fe88c"
+                        alt="coronavirus pandemic covid-19 new york " title="coronavirus pandemic covid-19 new york "
+                        width="100%" height="311" class="mapping-tablet lazysize lazyloaded"
+                        src="https://d.newsweek.com/en/full/1579490/coronavirus-pandemic-covid-19-new-york.jpg?w=466&amp;h=311&amp;q=90&amp;f=9dcb631881b3d1da85b177f53f0fe88c">
+                </div>
+
+                <div class="col-sm-12">
+                    <P class="font-weight-bold"><span  class="cover">COVER</span> <a href="#">POLITICS</a></P>
+                    <br>
+                    <h2><a>Michigan Governor Gretchen Whitmer May Pay a Price for Strict COVID Rules</a></h2>
+                    <br>
+                    <img data-src="https://d.newsweek.com/en/full/1581592/cul-the-last-dance-banner.jpg?w=466&amp;h=311&amp;l=64&amp;t=52&amp;q=90&amp;f=3d5db0a981677ca610a3170abbc9428d"
+                        alt="CUL_The Last Dance_Banner" title="CUL_The Last Dance_Banner" width="100%" height="311"
+                        class="mapping-tablet lazysize lazyloaded"
+                        src="https://d.newsweek.com/en/full/1581592/cul-the-last-dance-banner.jpg?w=466&amp;h=311&amp;l=64&amp;t=52&amp;q=90&amp;f=3d5db0a981677ca610a3170abbc9428d">
+                </div>
+
+                <div class="col-sm-12">
+                    <P class="font-weight-bold"><span  class="cover">COVER</span> <a href="#">POLITICS</a></P>
+                    <br>
+                    <h2><a>Michigan Governor Gretchen Whitmer May Pay a Price for Strict COVID Rules</a></h2>
+                    <br>
+                    <img data-src="https://d.newsweek.com/en/full/1581931/cul-uncharted-books-banner.jpg?w=466&amp;h=311&amp;q=90&amp;f=761db87ab1263b6a0614fe17874fc744"
+                        alt="CUL_Uncharted_Books_Banner" title="CUL_Uncharted_Books_Banner" width="100%" height="311"
+                        class="mapping-tablet lazysize lazyloaded"
+                        src="https://d.newsweek.com/en/full/1581931/cul-uncharted-books-banner.jpg?w=466&amp;h=311&amp;q=90&amp;f=761db87ab1263b6a0614fe17874fc744">
+                </div>
+
+                <div class="col-sm-12">
+                    <P class="font-weight-bold"><span  class="cover">COVER</span> <a href="#">POLITICS</a></P>
+                    <br>
+                    <h2><a>Michigan Governor Gretchen Whitmer May Pay a Price for Strict COVID Rules</a></h2>
+                    <br>
+                    <img src="https://d.newsweek.com/en/full/1582550/fe-whitmer-q.jpg?w=466&amp;h=311&amp;l=40&amp;t=43&amp;q=90&amp;f=3a04771e849065ff652402c4dd0333ac"
+                        alt="FE_Whitmer_Q&amp;A" title="FE_Whitmer_Q&amp;A" width="100%" height="311   "
+                        class="mapping-tablet lazysize lazyloaded"
+                        src="https://d.newsweek.com/en/full/1582550/fe-whitmer-q.jpg?w=466&amp;h=311&amp;l=40&amp;t=43&amp;q=90&amp;f=3a04771e849065ff652402c4dd0333ac">
+
+                </div>
+
             </div>
 
-            <div class="col-md">
-                
-                <img data-src="https://d.newsweek.com/en/full/1584789/elon-musk.jpg?w=397&amp;h=295&amp;f=9c3c5c4ca5a02d4f50d039b58b2d979e" alt="Elon Musk " title="Elon Musk " width="100%" height="295" class="mapping-sm_md lazysize lazyloaded" src="https://d.newsweek.com/en/full/1584789/elon-musk.jpg?w=397&amp;h=295&amp;f=9c3c5c4ca5a02d4f50d039b58b2d979e">
-            <h2><a>Elon Musk's SpaceX Starship Spacecraft Just Overcame a Big Hurdle</a></h2>
-            <p>Taking place at a SpaceX site in Texas, the SN4 prototype became the first full-scale build to pass the crucial test following a series of setbacks with prior models including the MK1, SN1 and SN3.</p>
+
+            <p class="text-md-center p-3"> EDITOR'S PICK</p>
+
+            <div class="row">
+                <div class="col-md">
+                    <hr>
+                    <img data-src="https://d.newsweek.com/en/full/1584789/elon-musk.jpg?w=397&amp;h=295&amp;f=9c3c5c4ca5a02d4f50d039b58b2d979e"
+                        alt="Elon Musk " title="Elon Musk " width="100%" height="295"
+                        class="mapping-sm_md lazysize lazyloaded"
+                        src="https://d.newsweek.com/en/full/1584789/elon-musk.jpg?w=397&amp;h=295&amp;f=9c3c5c4ca5a02d4f50d039b58b2d979e">
+                    <h2><a>Elon Musk's SpaceX Starship Spacecraft Just Overcame a Big Hurdle</a></h2>
+                    <p>Taking place at a SpaceX site in Texas, the SN4 prototype became the first full-scale build to
+                        pass the crucial test following a series of setbacks with prior models including the MK1, SN1
+                        and SN3.</p>
+                </div>
+
+                <div class="col-md">
+
+                    <img data-src="https://d.newsweek.com/en/full/1584789/elon-musk.jpg?w=397&amp;h=295&amp;f=9c3c5c4ca5a02d4f50d039b58b2d979e"
+                        alt="Elon Musk " title="Elon Musk " width="100%" height="295"
+                        class="mapping-sm_md lazysize lazyloaded"
+                        src="https://d.newsweek.com/en/full/1584789/elon-musk.jpg?w=397&amp;h=295&amp;f=9c3c5c4ca5a02d4f50d039b58b2d979e">
+                    <h2><a>Elon Musk's SpaceX Starship Spacecraft Just Overcame a Big Hurdle</a></h2>
+                    <p>Taking place at a SpaceX site in Texas, the SN4 prototype became the first full-scale build to
+                        pass the crucial test following a series of setbacks with prior models including the MK1, SN1
+                        and SN3.</p>
+                </div>
+
+                <div class="col-md">
+
+                    <img data-src="https://d.newsweek.com/en/full/1584789/elon-musk.jpg?w=397&amp;h=295&amp;f=9c3c5c4ca5a02d4f50d039b58b2d979e"
+                        alt="Elon Musk " title="Elon Musk " width="100%" height="295"
+                        class="mapping-sm_md lazysize lazyloaded"
+                        src="https://d.newsweek.com/en/full/1584789/elon-musk.jpg?w=397&amp;h=295&amp;f=9c3c5c4ca5a02d4f50d039b58b2d979e">
+                    <h2><a>Elon Musk's SpaceX Starship Spacecraft Just Overcame a Big Hurdle</a></h2>
+                    <p>Taking place at a SpaceX site in Texas, the SN4 prototype became the first full-scale build to
+                        pass the crucial test following a series of setbacks with prior models including the MK1, SN1
+                        and SN3.</p>
+                </div>
+
+                <div class="col-md">
+
+                    <img data-src="https://d.newsweek.com/en/full/1584789/elon-musk.jpg?w=397&amp;h=295&amp;f=9c3c5c4ca5a02d4f50d039b58b2d979e"
+                        alt="Elon Musk " title="Elon Musk " width="100%" height="295"
+                        class="mapping-sm_md lazysize lazyloaded"
+                        src="https://d.newsweek.com/en/full/1584789/elon-musk.jpg?w=397&amp;h=295&amp;f=9c3c5c4ca5a02d4f50d039b58b2d979e">
+                    <h2><a>Elon Musk's SpaceX Starship Spacecraft Just Overcame a Big Hurdle</a></h2>
+                    <p>Taking place at a SpaceX site in Texas, the SN4 prototype became the first full-scale build to
+                        pass the crucial test following a series of setbacks with prior models including the MK1, SN1
+                        and SN3.</p>
+                </div>
+
+                <div class="col-md">
+
+                    <img data-src="https://d.newsweek.com/en/full/1584789/elon-musk.jpg?w=397&amp;h=295&amp;f=9c3c5c4ca5a02d4f50d039b58b2d979e"
+                        alt="Elon Musk " title="Elon Musk " width="100%" height="295"
+                        class="mapping-sm_md lazysize lazyloaded"
+                        src="https://d.newsweek.com/en/full/1584789/elon-musk.jpg?w=397&amp;h=295&amp;f=9c3c5c4ca5a02d4f50d039b58b2d979e">
+                    <h2><a>Elon Musk's SpaceX Starship Spacecraft Just Overcame a Big Hurdle</a></h2>
+                    <p>Taking place at a SpaceX site in Texas, the SN4 prototype became the first full-scale build to
+                        pass the crucial test following a series of setbacks with prior models including the MK1, SN1
+                        and SN3.</p>
+                </div>
+
+                <div class="col-md">
+
+                    <img data-src="https://d.newsweek.com/en/full/1584789/elon-musk.jpg?w=397&amp;h=295&amp;f=9c3c5c4ca5a02d4f50d039b58b2d979e"
+                        alt="Elon Musk " title="Elon Musk " width="100%" height="295"
+                        class="mapping-sm_md lazysize lazyloaded"
+                        src="https://d.newsweek.com/en/full/1584789/elon-musk.jpg?w=397&amp;h=295&amp;f=9c3c5c4ca5a02d4f50d039b58b2d979e">
+                    <h2><a>Elon Musk's SpaceX Starship Spacecraft Just Overcame a Big Hurdle</a></h2>
+                    <p>Taking place at a SpaceX site in Texas, the SN4 prototype became the first full-scale build to
+                        pass the crucial test following a series of setbacks with prior models including the MK1, SN1
+                        and SN3.</p>
+                </div>
+
+                <div class="col-md">
+
+                    <img data-src="https://d.newsweek.com/en/full/1584789/elon-musk.jpg?w=397&amp;h=295&amp;f=9c3c5c4ca5a02d4f50d039b58b2d979e"
+                        alt="Elon Musk " title="Elon Musk " width="100%" height="295"
+                        class="mapping-sm_md lazysize lazyloaded"
+                        src="https://d.newsweek.com/en/full/1584789/elon-musk.jpg?w=397&amp;h=295&amp;f=9c3c5c4ca5a02d4f50d039b58b2d979e">
+                    <h2><a>Elon Musk's SpaceX Starship Spacecraft Just Overcame a Big Hurdle</a></h2>
+                    <p>Taking place at a SpaceX site in Texas, the SN4 prototype became the first full-scale build to
+                        pass the crucial test following a series of setbacks with prior models including the MK1, SN1
+                        and SN3.</p>
+                </div>
+
+                <div class="col-md">
+
+                    <img data-src="https://d.newsweek.com/en/full/1584789/elon-musk.jpg?w=397&amp;h=295&amp;f=9c3c5c4ca5a02d4f50d039b58b2d979e"
+                        alt="Elon Musk " title="Elon Musk " width="100%" height="295"
+                        class="mapping-sm_md lazysize lazyloaded"
+                        src="https://d.newsweek.com/en/full/1584789/elon-musk.jpg?w=397&amp;h=295&amp;f=9c3c5c4ca5a02d4f50d039b58b2d979e">
+                    <h2><a>Elon Musk's SpaceX Starship Spacecraft Just Overcame a Big Hurdle</a></h2>
+                    <p>Taking place at a SpaceX site in Texas, the SN4 prototype became the first full-scale build to
+                        pass the crucial test following a series of setbacks with prior models including the MK1, SN1
+                        and SN3.</p>
+                </div>
+
             </div>
 
-            <div class="col-md">
-                
-                <img data-src="https://d.newsweek.com/en/full/1584789/elon-musk.jpg?w=397&amp;h=295&amp;f=9c3c5c4ca5a02d4f50d039b58b2d979e" alt="Elon Musk " title="Elon Musk " width="100%" height="295" class="mapping-sm_md lazysize lazyloaded" src="https://d.newsweek.com/en/full/1584789/elon-musk.jpg?w=397&amp;h=295&amp;f=9c3c5c4ca5a02d4f50d039b58b2d979e">
-            <h2><a>Elon Musk's SpaceX Starship Spacecraft Just Overcame a Big Hurdle</a></h2>
-            <p>Taking place at a SpaceX site in Texas, the SN4 prototype became the first full-scale build to pass the crucial test following a series of setbacks with prior models including the MK1, SN1 and SN3.</p>
+            <p class="text-md-center p-3"> SUBSCRIBE</p>
+
+            <div class="row">
+                <div class="col-md">
+                    <img data-src="https://d.newsweek.com/en/full/1582633/may-01-2020-cover.jpg?w=170&amp;q=95&amp;f=1a0d984a3141e5762557f214ca2a1540"
+                        class="lazyloaded"
+                        src="https://d.newsweek.com/en/full/1582633/may-01-2020-cover.jpg?w=170&amp;q=95&amp;f=1a0d984a3141e5762557f214ca2a1540">
+                    <h2><a>In-depth Stories You Don't See Elsewhere About Topics You Want to Read!</a></h2>
+                    <p>All Access + Weekly Delivery.<br>
+                        Choose A Membership That's Perfect for You!</p>
+                    <buttoN><a>SUBSCRIBE</a></butto>
+                </div>
+                <p class="text-md-center p-3"> NEWLETTER</p>
+                <div class="col-md">
+                    <img data-src="https://d.newsweek.com/en/full/1582633/may-01-2020-cover.jpg?w=170&amp;q=95&amp;f=1a0d984a3141e5762557f214ca2a1540"
+                        class="lazyloaded"
+                        src="https://d.newsweek.com/en/full/1582633/may-01-2020-cover.jpg?w=170&amp;q=95&amp;f=1a0d984a3141e5762557f214ca2a1540">
+                    <h2>The Starting 5</h2>
+                    <p>See why nearly a quarter of a million subscribers begin their day with the Starting 5.</p>
+                    <button><a>SIGN UP</a></butto>
+                </div>
+
             </div>
 
-        </div>
-</section>
-<p class="text-md-center p-3"> SUBSCRIBE</p>
-<section class="container">
-    <div class="row">
-        <div class="col-md">
-            <img data-src="https://d.newsweek.com/en/full/1582633/may-01-2020-cover.jpg?w=170&amp;q=95&amp;f=1a0d984a3141e5762557f214ca2a1540" class="lazyloaded" src="https://d.newsweek.com/en/full/1582633/may-01-2020-cover.jpg?w=170&amp;q=95&amp;f=1a0d984a3141e5762557f214ca2a1540">
-            <h2><a>In-depth Stories You Don't See Elsewhere About Topics You Want to Read!</a></h2>
-            <p>All Access + Weekly Delivery.<br>
-                Choose A Membership That's Perfect for You!</p>
-                <buttoN><a>SUBSCRIBE</a></butto>
-        </div>
-        <p class="text-md-center p-3"> NEWLETTER</p>
-        <div class="col-md">
-            <img data-src="https://d.newsweek.com/en/full/1582633/may-01-2020-cover.jpg?w=170&amp;q=95&amp;f=1a0d984a3141e5762557f214ca2a1540" class="lazyloaded" src="https://d.newsweek.com/en/full/1582633/may-01-2020-cover.jpg?w=170&amp;q=95&amp;f=1a0d984a3141e5762557f214ca2a1540">
-            <h2>The Starting 5</h2>
-            <p>See why nearly a quarter of a million subscribers begin their day with the Starting 5.</p>
-                <button><a>SIGN UP</a></butto>
-        </div>
+        </section>
+        <footer>
+            <p>Newsweek</p>
+            <p>© 2020 NEWSWEEK</p>
+            <div>
+                <i class="fab fa-facebook-square"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-linkedin"></i>
+            </div>
+            <hr>
 
-    </div>
+            <ul>
+                <li><a href="#">U.S Edition </a> </li>
+                <li><a href="#">Pakistan</a> </li>
+                <li><a href="#">Polska</a> </li>
+                <li><a href="#">Romania</a> </li>
+                <li><a href="#">Environment</a> </li>
+                <li><a href="#">Job oppertunities</a> </li>
+                <li><a href="#">Contact Us</a> </li>
 
-</section>
-<footer>
-    <p>Newsweek</p>
-    <p>© 2020 NEWSWEEK</p>
-    <div>
-        <i class="fab fa-facebook-square"></i>
-        <i class="fab fa-twitter"></i>
-        <i class="fab fa-instagram"></i>
-        <i class="fab fa-linkedin"></i>
-    </div>
-    <hr>
+            </ul>
+        </footer>
 
-    <ul>
-        <li><a href="#">U.S Edition </a> </li>
-        <li><a href="#">Pakistan</a> </li>
-        <li><a href="#">Polska</a> </li>
-        <li><a href="#">Romania</a> </li>
-        <li><a href="#">Environment</a> </li>
-        <li><a href="#">Job oppertunities</a> </li>
-        <li><a href="#">Contact Us</a> </li>
-        
-      </ul>
-</footer>
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+            integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+            crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+            integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+            crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+            integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+            crossorigin="anonymous"></script>
+</body>
 
-    <script
-      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
-      crossorigin="anonymous"
-    ></script>
-  </body>
 </html>
