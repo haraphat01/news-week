@@ -5,6 +5,7 @@
 body {
   margin: 0 auto;
   font-family: "Roboto Condensed", sans-serif;
+  overflow-x: hidden;
 }
 
 nav a {
@@ -37,6 +38,10 @@ nav a {
   position: relative;
   left: 15em;
   padding-top: 15px;
+}
+
+.image {
+width: 100%;
 }
 
 @media screen and (max-width: 575px) {
@@ -118,25 +123,25 @@ nav a {
   .lazyloaded-debate {
     width: 50px;
     height: 50px;
-    position: absolute;
-    margin-left: 30em;
-    top: 7.5em;
+    position: relative;
+    margin-left: 24em;
+    bottom: 2em;
   }
 
   .lazyloaded-debate1 {
     width: 50px;
     height: 50px;
-    position: absolute;
-    margin-left: 30em;
-    top: 6em;
-  }
+    position: relative;
+    margin-left: 23em;
+    bottom: 3.5em;
+}
 
   .debate-p {
     margin-top: 2em;
   }
   .debate-p2 {
-    position: absolute;
-    bottom: 1.5em;
+    position: relative;
+    bottom: 2.7em;
   }
 
   .more-story-div {
@@ -191,14 +196,46 @@ nav a {
   }
 
   .may {
-      color: #f72210;
-      position: absolute;
-     bottom: 1em;
-     background-color: #EDEDED;
+    color: #f72210;
+    position: absolute;
+    bottom: 1em;
+    background-color: #ededed;
   }
 
   .cover {
     background-color: #f72210;
     color: white;
   }
+
+  .elon-paragraph {
+    color: #f72210;
+    background-color: #ededed;
+    position: absolute;
+    bottom: 6.4em;
+  }
+
+  .elon-paragraph1 a {
+    text-decoration: none;
+    color: black;
+  }
+
+  .subscribe-button {
+    background-color: #f72210;
+  }
+  .subscribe-button a {
+    text-decoration: none;
+    color: white;
+    background-color: #f72210;
+  }
+
+  .newsweek {
+    color: #f72210;
+    font-size: 2em;
+  }
+.footer a{
+    text-decoration: none;
+    color: black;
+
 }
+}
+                                                                                                                                                    
