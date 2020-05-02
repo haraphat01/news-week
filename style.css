@@ -1,4 +1,4 @@
-*{
+* {
   box-sizing: border-box;
 }
 body {
@@ -23,18 +23,15 @@ body {
 }
 
 .second-grid a:hover {
-  color:  #F72210;
+  color: #f72210;
 }
 
 .first-grid {
-  background-color: #F72210;
-  
-  
+  background-color: #f72210;
 }
 
 .second-grid {
-  background-color: #FFFFFF;
-  
+  background-color: #ffffff;
 }
 
 .newsweek {
@@ -42,7 +39,7 @@ body {
 }
 
 .opinion-img {
-  width : 100px;
+  width: 100px;
   height: 100px;
 }
 
@@ -64,9 +61,17 @@ body {
   padding-top: 300px;
 }
 
+.debate2text {
+  margin-top: 17em;
+}
+
 .image-size {
   width: 100%;
+}
 
+.latest-news-image {
+  width: 150px;
+  height: 150px;
 }
 
 .more-stories-image {
@@ -74,20 +79,55 @@ body {
   width: 150px;
 }
 
+.debate-picture1 {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  left: 25em;
+  top: -0.5em;
+}
+
+.debate-picture2 {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  left: 25em;
+  top: 16em;
+}
+
 .more-stories-text {
- position: absolute;
- left: 13em;
- bottom: 5em;
+  position: absolute;
+  left: 13em;
+  bottom: 5em;
 }
 
 .opinion-text {
   position: absolute;
- left: 9em;
- bottom: 4em;
- 
+  left: 9em;
+  bottom: 4em;
 }
 
 .debate1 {
-  border-top: 4px solid #F92859;
-  border-bottom:4px double #e2e2e2;
+  border-top: 4px solid #f92859;
+  border-bottom: 4px double #e2e2e2;
+}
+
+.debate2 {
+  border-top: 4px solid #1c87fb;
+  border-bottom: 4px double #e2e2e2;
+  position: absolute;
+  top: 60em;
+}
+
+.vs {
+  text-align: center;
+  border-radius: 200px 200px 200px 200px;
+  background-color: black;
+  color: #e2e2e2;
+  width: 50px;
+  height: 50px;
+  padding-top: 1em;
+  position: relative;
+  left: 15em;
+  top: 7em;
 }
