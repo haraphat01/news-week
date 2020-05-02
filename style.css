@@ -146,7 +146,7 @@
   .united-states-div {
     margin-top: 30px;
   }
-}
+
 
 body {
   overflow-x: hidden;
@@ -507,4 +507,5 @@ footer i {
 .footer {
   background-color: #fff;
   margin-top: 3px;
+}
 }
