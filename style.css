@@ -1,10 +1,9 @@
-
 @media (max-width: 1105px) {
-  .large-screen-nav {
+  .larger-view-nav {
     display: none;
   }
 
-  .hidden-nav {
+  .hidden-navigation {
     display: inherit !important;
   }
 
@@ -163,7 +162,7 @@ footer {
   margin-top: 2px;
 }
 
-.large-screen-nav {
+.larger-view-nav {
   background-color: #ff0500;
 }
 
@@ -184,7 +183,7 @@ svg {
   width: 30%;
 }
 
-.hidden-nav {
+.hidden-navigation {
   display: none;
   background-color: #ff0500;
   overflow: hidden;
@@ -508,3 +507,4 @@ footer i {
 .footer {
   background-color: #fff;
   margin-top: 3px;
+}
