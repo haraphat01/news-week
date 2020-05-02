@@ -109,11 +109,9 @@
     font-size: 20px;
     text-align: center;
     padding-bottom: 10px;
-  }
-
-  .subscribe-images2 {
-    top: 20px;
-    right: -300px;
+    margin-top: 30px;
+    font-size: 15px;
+    margin-left: 70px;
   }
 
   .signup {
@@ -352,11 +350,6 @@
     height: auto;
   }
 
-  .signup-image {
-    width: 200px;
-    height: 300px;
-  }
-
   .newsletter span {
     font-size: 18px;
     line-height: 1.2em;
@@ -439,8 +432,7 @@
     line-height: 58px;
     text-indent: 5px;
     text-align: center;
-    background: 
-    url(https://g.newsweek.com/themes/newsweek/images/icon-slideshows-nw.png)
+    background: url(https://g.newsweek.com/themes/newsweek/images/icon-slideshows-nw.png)
       0 0 / contain no-repeat;
     color: #f72210;
   }
@@ -459,12 +451,6 @@
     width: 95px;
   }
 
-  .subscribe-buttons {
-    margin-top: 30px;
-    font-size: 15px;
-    margin-left: 70px;
-  }
-
   .subscribe-images2 {
     top: 20px;
     left: 50px;
@@ -474,9 +460,7 @@
     width: 40%;
   }
 
-  .signup {
-    width: 100%;
-  }
+  
 
   .start {
     margin-left: 10px;
