@@ -109,9 +109,11 @@
     font-size: 20px;
     text-align: center;
     padding-bottom: 10px;
-    margin-top: 30px;
-    font-size: 15px;
-    margin-left: 70px;
+  }
+
+  .subscribe-images2 {
+    top: 20px;
+    right: -300px;
   }
 
   .signup {
@@ -152,6 +154,7 @@
     margin-right: 20px;
   }
 
+  
   main,
   footer {
     background-color: #fff;
@@ -350,6 +353,11 @@
     height: auto;
   }
 
+  .signup-image {
+    width: 200px;
+    height: 300px;
+  }
+
   .newsletter span {
     font-size: 18px;
     line-height: 1.2em;
@@ -451,6 +459,12 @@
     width: 95px;
   }
 
+  .subscribe-buttons {
+    margin-top: 30px;
+    font-size: 15px;
+    margin-left: 70px;
+  }
+
   .subscribe-images2 {
     top: 20px;
     left: 50px;
@@ -460,7 +474,9 @@
     width: 40%;
   }
 
-  
+  .signup {
+    width: 100%;
+  }
 
   .start {
     margin-left: 10px;
