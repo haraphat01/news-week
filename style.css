@@ -95,6 +95,11 @@ body {
   top: 16em;
 }
 
+.card-picture {
+  height: 500px;
+  width: 466px;
+}
+
 .more-stories-text {
   position: absolute;
   left: 13em;
@@ -131,3 +136,4 @@ body {
   left: 15em;
   top: 7em;
 }
+ 
