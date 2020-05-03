@@ -4,6 +4,7 @@
 body {
   width: 100%;
   color: black;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .navigation {
@@ -137,3 +138,21 @@ body {
   top: 7em;
 }
  
+.div-height {
+  height:20em; 
+   
+}
+
+.newsletter {
+  background-image: url("https://d.newsweek.com/en/full/1541302/starting5-homepage.png");
+  background-size: 1 100%;
+  background-repeat: no-repeat;
+  height:50vh;   
+  background-position-y: 50px;
+  
+}
+
+.footer-logo {
+  color: #f72210;
+  height: 50px;
+}
