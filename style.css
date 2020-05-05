@@ -1,6 +1,7 @@
 * {
   box-sizing: border-box;
 }
+
 body {
   min-width: 400px;
   max-width: 1300px;
@@ -38,6 +39,34 @@ nav {
   color: black;
 }
 
+.newsweek a {
+  text-decoration: none;
+  color: #f72210;
+}
+
+.world a {
+  text-decoration: none;
+  color: #f72210;
+}
+
+.world2 a {
+  text-decoration: none;
+  color: #f72210;
+}
+
+.anchor a {
+  color: black;
+}
+
+.anchor2 a {
+  text-decoration: none;
+  color: black;
+}
+
+.anchor3 a {
+  color: black;
+}
+
 .second-grid a:hover {
   color: #f72210;
 }
@@ -48,12 +77,12 @@ nav {
 }
 
 .second-grid {
-  background-color: #ffffff;
+  background-color: #fff;
   font-size: 1.5rem;
 }
 
 .subscribe-nav {
-  background-color: #ffffff;
+  background-color: #fff;
   color: #f72210 !important;
 }
 
@@ -72,10 +101,7 @@ nav {
   color: #f72210;
 }
 
-.newsweek a {
-  text-decoration: none;
-  color: #f72210;
-}
+
 
 .grey {
   color: #a0a0a0;
@@ -91,10 +117,7 @@ nav {
   color: #f72210;
 }
 
-.world a {
-  text-decoration: none;
-  color: #f72210;
-}
+
 
 .world2 {
   position: relative;
@@ -104,10 +127,7 @@ nav {
   width: 7rem;
 }
 
-.world2 a {
-  text-decoration: none;
-  color: #f72210;
-}
+
 
 .pandemic {
   background-color: #c2d4d7;
@@ -181,9 +201,7 @@ nav {
   font-size: 1rem;
 }
 
-.anchor a {
-  color: black;
-}
+
 
 .anchor a:hover {
   text-decoration: underline red;
@@ -194,10 +212,7 @@ nav {
   font-size: 0.9rem;
 }
 
-.anchor2 a {
-  text-decoration: none;
-  color: black;
-}
+
 
 .anchor2 a:hover {
   color: red;
@@ -208,9 +223,7 @@ nav {
   font-size: 0.9rem;
 }
 
-.anchor3 a {
-  color: black;
-}
+
 
 .anchor3 a:hover {
   text-decoration: underline red;
@@ -269,6 +282,7 @@ nav {
   left: 9em;
   bottom: 0.5em;
 }
+
 .debate-text {
   position: absolute;
   left: 8em;
