@@ -7,7 +7,7 @@ body {
   color: black;
   font-family: Arial, Helvetica, sans-serif;
   line-height: 1em;
-  margin: 0 auto;
+  margin: 0 auto !important;
 }
 
 nav {
@@ -69,6 +69,12 @@ nav {
 
 .newsweek {
   font-size: 2em;
+  color: #f72210;
+}
+
+.newsweek a{
+ text-decoration: none;
+ color: #f72210;
 }
 
 .grey {
@@ -81,7 +87,7 @@ nav {
   background-color: #eef3f0;
   top: -1em;
   font-size: 1.5rem;
-  width: 4rem;
+  width: 7rem;
   color: #f72210;
 }
 
@@ -109,29 +115,15 @@ nav {
   bottom: 2.3em;
   width: 6em;
   font-size: 10px;
-  
 }
 
 .featured {
-  font-size: 1.5rem;
+  position: relative;
 }
 
 .paragraph {
   font-size: 0.9rem;
   color: black;
-}
-
-.featured p {
-  font-size: 1rem;
-  color: #b0b0b0;
-}
-
-.featured a {
-  color: black;
-}
-
-.featured a:hover {
-  text-decoration: underline #f72210;
 }
 
 .pandemic-section a {
@@ -151,11 +143,6 @@ nav {
 }
 
 .subscribe-text {
-  font-size: 1.5rem;
-  position: absolute;
-  left: 13em;
-  bottom: 9em;
-  color: black;
 }
 
 .subscribe-p {
@@ -166,17 +153,6 @@ nav {
 }
 
 .newsletter-text {
-  font-size: 1.5rem;
-  position: absolute;
-  left: 13em;
-  bottom: 12em;
-}
-
-.newsletter-text-p {
-  font-size: 1rem;
-  position: absolute;
-  left: 17em;
-  bottom: 10em;
 }
 
 .pandemich2 {
@@ -184,8 +160,8 @@ nav {
 }
 
 .opinion-img {
-  width: 100px;
-  height: 100px;
+  width: 90px;
+  height: 90px;
 }
 
 .fauzi {
@@ -233,8 +209,22 @@ nav {
   color: red;
 }
 
+.anchor3 {
+  color: black;
+  font-size: 0.9rem;
+}
+
+.anchor3 a {
+  color: black;
+}
+
+.anchor3 a:hover {
+  text-decoration: underline red;
+}
+
 .debate2text {
-  margin-top: 7em;
+  position: absolute;
+  top: 1em;
 }
 
 .image-size {
@@ -242,8 +232,8 @@ nav {
 }
 
 .latest-news-image {
-  width: 150px;
-  height: 150px;
+  width: 100px;
+  height: 100px;
 }
 
 .more-stories-image {
@@ -256,7 +246,7 @@ nav {
   width: 50px;
   height: 50px;
   position: absolute;
-  left: 20em;
+  right: 0;
   top: -0.5em;
 }
 
@@ -264,13 +254,14 @@ nav {
   width: 50px;
   height: 50px;
   position: absolute;
-  left: 20em;
-  top: 6.5em;
+  right: 0;
+  top: 0.5em;
 }
 
 .card-picture {
   height: 300px;
   width: 300px;
+  position: relative;
 }
 
 .more-stories-text {
@@ -282,12 +273,13 @@ nav {
 .opinion-text {
   position: absolute;
   left: 9em;
-  bottom: 1em;
+  bottom: 0.5em;
 }
 .debate-text {
   position: absolute;
   left: 8em;
   bottom: 2em;
+  font-size: 1rem;
 }
 
 .aside-text {
@@ -306,12 +298,19 @@ nav {
   border-top: 4px solid #1c87fb;
   border-bottom: 4px double #e2e2e2;
   position: relative;
-  top: 7em;
+  top: 1em;
 }
 
 .division {
   font-size: 1.5rem;
-  color: #f92859;
+  color: #f72210;
+  position: absolute;
+  top: -1em;
+}
+
+.division1 {
+  font-size: 1.5rem;
+  color: #f72210;
 }
 
 .vs {
@@ -322,9 +321,7 @@ nav {
   width: 50px;
   height: 50px;
   padding-top: 1em;
-  position: absolute;
-  left: 10em;
-  top: 4em;
+  margin: 2em auto;
 }
 
 .features {
@@ -333,7 +330,8 @@ nav {
 }
 
 .div-height {
-  height: 20em;
+  height: 18em;
+  margin-top: 1em;
 }
 
 .latest-news-div {
@@ -346,30 +344,30 @@ nav {
 
 .n {
   color: white;
-  background-color: #f92859;
+  background-color: #f72210;
   padding: 0.5rem;
   font-weight: bold;
   font-size: 1rem;
 }
 
 .may {
-  color: #f92859 !important;
+  color: #f72210 !important;
   background-color: #ecf5fb;
   font-size: 1rem;
-  width: 40%;
-  position: relative;
-  top: -1.9em;
-  padding:2px;
+  width: 8em;
+  position: absolute;
+  bottom: 6.5em;
+  padding: 2px;
 }
 
 .education {
   font-size: 1.3rem;
   color: white;
-  background-color: #f92859;
+  background-color: #f72210;
 }
 
 .red {
-  color: #f92859;
+  color: #f72210;
   font-size: 1.3rem;
 }
 
@@ -378,9 +376,7 @@ nav {
 }
 
 .button {
-  position: absolute;
-  left: 25em;
-  top: 13em;
+  color: #f72210;
 }
 
 .newsletter {
@@ -397,9 +393,16 @@ nav {
   height: 50px;
 }
 
-.button {
+.sub-div {
+  margin: 0 0 0 17em;
   position: absolute;
-  left: 16em;
+  bottom: 7em;
+}
+
+.sign-up-div {
+  margin: 0 0 0 17em;
+  position: absolute;
+  bottom: 7em;
 }
 
 @media only screen and (max-width: 767px) {
@@ -411,7 +414,7 @@ nav {
   .world {
     position: relative;
     background-color: #eef3f0;
-    top: -2.4em;
+    top: -1.9em;
     font-size: 1.5rem;
     width: 5em;
     color: #f72210;
@@ -426,36 +429,6 @@ nav {
     position: relative;
   }
 
-  .debate-picture1 {
-    width: 50px;
-    height: 50px;
-    position: absolute;
-    left: 43rem;
-    top: -0.9rem;
-
-  }
-
-  .debate-picture2 {
-    width: 50px;
-    height: 50px;
-    position: absolute;
-    left: 43rem;
-    top: 6.5em;
-  }
-
-  .vs {
-    text-align: center;
-    border-radius: 200px 200px 200px 200px;
-    background-color: black;
-    color: #e2e2e2;
-    width: 50px;
-    height: 50px;
-    padding-top: 1em;
-    position: absolute;
-    left: 16rem;
-    top: 4rem;
-  }
-
   .text-xl-center {
     text-align: center;
   }
@@ -465,27 +438,82 @@ nav {
     width: 100%;
   }
 
-  
-
   .may {
-    color: #f92859 !important;
+    color:#f72210 !important;
     background-color: #ecf5fb;
     font-size: 1rem;
     position: relative;
     top: -1.4em;
-    padding:2px;
+    padding: 2px;
     width: 8rem;
   }
 
-  .subscribe-text {
-    font-size: 1rem;
-    position: absolute;
-    left: 13em;
-    bottom: 9em;
-    color: black;
+  .vs {
+    text-align: center;
+    border-radius: 200px 200px 200px 200px;
+    background-color: black;
+    color: #e2e2e2;
+    width: 50px;
+    height: 50px;
+    position: relative;
   }
-  
 
-  
-  
+  .top-story {
+    margin-top: 10em;
+  }
+
+  .opinion-text {
+    position: absolute;
+    left: 9em;
+    bottom: 2em;
+  }
+
+  .first {
+    position: relative;
+  }
+
+  .small-size {
+    height: 200px;
+    width: 150px;
+    margin-top: 0;
+    margin-left: 35%;
+    margin-bottom: 35%;
+  }
+
+  .sub-div {
+    position: absolute;
+    left: -15em;
+    bottom: -1em;
+  }
+
+  .newsletter {
+    margin-top: 5em;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  body {
+    overflow-x: hidden;
+  }
+
+  .opinion-text {
+    position: absolute;
+    left: 9em;
+    bottom: 2em;
+  }
+
+  .card-picture {
+    height: 100%;
+    width: 100%;
+  }
+
+  .may {
+    color: #f72210 !important;
+    background-color: #ecf5fb;
+    font-size: 1rem;
+    position: relative;
+    top: -1.4em;
+    padding: 2px;
+    width: 8rem;
+  }
 }
