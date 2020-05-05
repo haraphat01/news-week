@@ -72,9 +72,9 @@ nav {
   color: #f72210;
 }
 
-.newsweek a{
- text-decoration: none;
- color: #f72210;
+.newsweek a {
+  text-decoration: none;
+  color: #f72210;
 }
 
 .grey {
@@ -142,17 +142,11 @@ nav {
   top: 1em;
 }
 
-.subscribe-text {
-}
-
 .subscribe-p {
   font-size: 1.3rem;
   position: absolute;
   left: 15em;
   bottom: 7em;
-}
-
-.newsletter-text {
 }
 
 .pandemich2 {
@@ -405,6 +399,46 @@ nav {
   bottom: 7em;
 }
 
+.large-screen-nav {
+  background-color: #ff0500;
+}
+
+.center-nav {
+  justify-content: center;
+  text-align: center;
+  width: 30%;
+  margin-top: 7px;
+}
+
+svg {
+  width: auto;
+  height: auto;
+  fill: white;
+}
+
+.newsweek-logo {
+  width: 30%;
+}
+
+.hidden-nav {
+  display: none;
+  background-color: #ff0500;
+  overflow: hidden;
+}
+
+.left-nav {
+  width: 50%;
+}
+
+.right-nav i {
+  font-size: 25px;
+}
+
+.second-nav a {
+  color: black;
+  font-weight: bold;
+}
+
 @media only screen and (max-width: 767px) {
   body {
     overflow-x: hidden;
@@ -439,7 +473,7 @@ nav {
   }
 
   .may {
-    color:#f72210 !important;
+    color: #f72210 !important;
     background-color: #ecf5fb;
     font-size: 1rem;
     position: relative;
@@ -489,6 +523,13 @@ nav {
   .newsletter {
     margin-top: 5em;
   }
+
+  div.indepth {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 }
 
 @media only screen and (max-width: 991px) {
@@ -515,5 +556,30 @@ nav {
     top: -1.4em;
     padding: 2px;
     width: 8rem;
+  }
+
+  .centerd-insight {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media (max-width: 1105px) {
+  .large-screen-nav {
+    display: none;
+  }
+
+  .hidden-nav {
+    display: inherit !important;
+  }
+
+  .second-nav {
+    display: none;
+  }
+
+  main {
+    margin-top: 30px !important;
   }
 }
