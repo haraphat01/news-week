@@ -20,6 +20,14 @@ nav {
   color: white;
 }
 
+.card {
+  border: none;
+}
+
+.border-primary {
+  color: #7c7c7c !important;
+}
+
 .first-grid a {
   text-decoration: none;
   color: white;
@@ -73,7 +81,8 @@ nav {
   background-color: #eef3f0;
   top: -1em;
   font-size: 1.5rem;
-  width: 25%;
+  width: 4rem;
+  color: #f72210;
 }
 
 .world a {
@@ -97,8 +106,10 @@ nav {
 .pandemic {
   background-color: #c2d4d7;
   position: relative;
-  bottom: 1.9em;
-  width: 5em;
+  bottom: 2.3em;
+  width: 6em;
+  font-size: 10px;
+  
 }
 
 .featured {
@@ -107,7 +118,7 @@ nav {
 
 .paragraph {
   font-size: 0.9rem;
-  color: #b0b0b0;
+  color: black;
 }
 
 .featured p {
@@ -159,7 +170,6 @@ nav {
   position: absolute;
   left: 13em;
   bottom: 12em;
- 
 }
 
 .newsletter-text-p {
@@ -167,7 +177,6 @@ nav {
   position: absolute;
   left: 17em;
   bottom: 10em;
-
 }
 
 .pandemich2 {
@@ -392,6 +401,23 @@ nav {
   left: 16em;
 }
 
-@media only screen and (min-width: 575px){
-  
+@media only screen and (min-width: 575px) {
+  body {
+    overflow-x: hidden;
+    line-height: 0.5em;
+  }
+
+  .world {
+    position: relative;
+    background-color: #eef3f0;
+    top: -2.4em;
+    font-size: 1.5rem;
+    width: 5em;
+    color: #f72210;
+    padding: 10px;
+  }
+
+  .grey {
+    padding-top: 2em;
+  }
 }
