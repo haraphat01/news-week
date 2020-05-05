@@ -67,6 +67,16 @@ nav {
   color: black;
 }
 
+.pandemic-section a {
+  text-decoration: none;
+  color: #7c7c7c;
+}
+
+.second-nav a {
+  color: black;
+  font-weight: bold;
+}
+
 .second-grid a:hover {
   color: #f72210;
 }
@@ -101,8 +111,6 @@ nav {
   color: #f72210;
 }
 
-
-
 .grey {
   color: #a0a0a0;
   font-size: 1.5rem;
@@ -117,8 +125,6 @@ nav {
   color: #f72210;
 }
 
-
-
 .world2 {
   position: relative;
   background-color: #eef3f0;
@@ -126,8 +132,6 @@ nav {
   font-size: 1.5rem;
   width: 7rem;
 }
-
-
 
 .pandemic {
   background-color: #c2d4d7;
@@ -144,11 +148,6 @@ nav {
 .paragraph {
   font-size: 0.9rem;
   color: black;
-}
-
-.pandemic-section a {
-  text-decoration: none;
-  color: #7c7c7c;
 }
 
 .pandemic-section a:hover {
@@ -201,8 +200,6 @@ nav {
   font-size: 1rem;
 }
 
-
-
 .anchor a:hover {
   text-decoration: underline red;
 }
@@ -212,8 +209,6 @@ nav {
   font-size: 0.9rem;
 }
 
-
-
 .anchor2 a:hover {
   color: red;
 }
@@ -222,8 +217,6 @@ nav {
   color: black;
   font-size: 0.9rem;
 }
-
-
 
 .anchor3 a:hover {
   text-decoration: underline red;
@@ -446,11 +439,6 @@ svg {
 
 .right-nav i {
   font-size: 25px;
-}
-
-.second-nav a {
-  color: black;
-  font-weight: bold;
 }
 
 @media only screen and (max-width: 767px) {
