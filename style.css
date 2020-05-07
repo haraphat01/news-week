@@ -3,7 +3,7 @@
 }
 
 body {
-  min-width: 400px;
+  min-width: 300px;
   max-width: 1300px;
   color: black;
   font-family: Arial, Helvetica, sans-serif;
@@ -305,8 +305,6 @@ nav {
 .division {
   font-size: 1.5rem;
   color: #f72210;
-  position: absolute;
-  top: -1em;
 }
 
 .division1 {
@@ -380,13 +378,9 @@ nav {
   color: #f72210;
 }
 
-.newsletter {
-  background-image: url("https://d.newsweek.com/en/full/1541302/starting5-homepage.png");
-  background-size: 1 100%;
-  background-repeat: no-repeat;
-  height: 50vh;
-  background-position-x: -200px;
-  margin-top: 2rem;
+.news-image1 {
+  height: 300px;
+  width: 250px;
 }
 
 .footer-logo {
@@ -401,9 +395,9 @@ nav {
 }
 
 .sign-up-div {
-  margin: 0 0 0 17em;
   position: absolute;
-  bottom: 7em;
+  bottom: 5em;
+  left: 20em;
 }
 
 .large-screen-nav {
@@ -428,7 +422,6 @@ svg {
 }
 
 .hidden-nav {
-  display: none;
   background-color: #ff0500;
   overflow: hidden;
 }
@@ -441,10 +434,115 @@ svg {
   font-size: 25px;
 }
 
+@media only screen and (max-width: 486px) {
+  .below {
+    display: flex;
+    position: relative;
+  }
+
+  .left-nav {
+    width: 50%;
+  }
+
+  .right-nav {
+    position: absolute;
+    right: 0;
+  }
+
+  .fa-cloud-sun,
+  span {
+    display: none !important;
+  }
+
+  .more-stories-image {
+    height: 100px;
+    width: 100px;
+    padding-top: 0.1em;
+  }
+
+  .more-stories-text {
+    position: absolute;
+    left: 7.5em;
+    bottom: 0.5em;
+  }
+
+  .anchor2 {
+    color: black;
+    font-size: 0.8rem;
+  }
+
+  .anchor3 {
+    color: black;
+    font-size: 0.7rem;
+  }
+
+  .paragraph {
+    font-size: 0.6rem;
+    color: black;
+  }
+
+  .opinion-text {
+    position: absolute;
+    left: 9em;
+    top: -1em;
+  }
+
+  .debate-text {
+    position: absolute;
+    left: 10em;
+    bottom: 5em;
+  }
+
+  .responsive {
+    position: absolute;
+    bottom: 3em;
+    font-size: 0.7rem;
+  }
+
+  .sub-div {
+    position: absolute;
+    left: -14em;
+    top: 15em;
+    margin-bottom: -15em;
+  }
+
+  .sign-up-div {
+    position: absolute;
+    left: 3em;
+    top: 14em;
+  }
+
+  .news-image1 {
+    height: 150px;
+    width: 250px;
+  }
+
+  .newsletter {
+    padding-top: 2em;
+    margin-bottom: 12em;
+  }
+
+  .large-screen-nav {
+    display: none !important;
+  }
+
+  .second-nav {
+    display: none !important;
+  }
+}
+
 @media only screen and (max-width: 767px) {
   body {
     overflow-x: hidden;
     line-height: 0.5em;
+  }
+
+  .large-screen-nav {
+    display: none !important;
+  }
+
+  .newsletter {
+    margin-top: 1em;
   }
 
   .world {
@@ -494,8 +592,8 @@ svg {
     position: relative;
   }
 
-  .top-story {
-    margin-top: 10em;
+  .text-white {
+    height: 30px;
   }
 
   .opinion-text {
@@ -522,15 +620,19 @@ svg {
     bottom: -1em;
   }
 
-  .newsletter {
-    margin-top: 5em;
-  }
-
   div.indepth {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+  }
+
+  .left-nav {
+    width: 50%;
+  }
+
+  .right-nav i {
+    font-size: 25px;
   }
 }
 
@@ -568,20 +670,30 @@ svg {
   }
 }
 
-@media (max-width: 1105px) {
-  .large-screen-nav {
-    display: none;
-  }
-
+@media only screen and (min-width: 992px) and (max-width: 1500px) {
   .hidden-nav {
-    display: inherit !important;
-  }
-
-  .second-nav {
-    display: none;
+    display: none !important;
   }
 
   main {
     margin-top: 30px !important;
+  }
+
+  .newsletter {
+    position: relative;
+    margin-left: 0;
+  }
+
+  .news-image1 {
+    height: 300px;
+    width: 250px;
+    position: absolute;
+    right: 5em;
+    top: 2em;
+  }
+
+  .sign-up-div {
+    position: relative;
+    top: 2em;
   }
 }
