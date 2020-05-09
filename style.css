@@ -31,14 +31,15 @@ nav {
 
 .newsweek,
 .world,
-.world2, a {
- text-decoration: #f72210;
- color: black;
- 
+.world2,
+a {
+  text-decoration: #f72210;
+  color: black;
 }
 
 .anchor,
-.anchor3, a {
+.anchor3,
+a {
   color: black;
 }
 
@@ -59,9 +60,9 @@ nav {
 
 .newsweek,
 .world,
-.world2, a:hover {
- color:black;
- 
+.world2,
+a:hover {
+  color: black;
 }
 
 .subscribe-nav {
