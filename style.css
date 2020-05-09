@@ -34,19 +34,6 @@ nav {
   color: #7c7c7c !important;
 }
 
-.world2 a,
-.world a,
-.newsweek a {
-  text-decoration: none;
-  color: #f72210;
-}
-
-.anchor,
-.anchor3,
-a {
-  color: black;
-}
-
 .anchor2 a {
   text-decoration: none;
   color: black;
@@ -60,6 +47,19 @@ a {
 .second-nav a {
   color: black;
   font-weight: bold;
+}
+
+.world2 a,
+.world a,
+.newsweek a {
+  text-decoration: none;
+  color: #f72210;
+}
+
+.anchor,
+.anchor3,
+a {
+  color: black;
 }
 
 .featured a,
