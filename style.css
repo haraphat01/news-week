@@ -29,41 +29,21 @@ nav {
   color: #7c7c7c !important;
 }
 
-.first-grid a {
-  text-decoration: none;
-  color: white;
+.newsweek,
+.world,
+.world2, a {
+ text-decoration: #f72210;
+ color: black;
+ 
 }
 
-.second-grid a {
-  text-decoration: none;
-  color: black;
-}
-
-.newsweek a {
-  text-decoration: none;
-  color: #f72210;
-}
-
-.world a {
-  text-decoration: none;
-  color: #f72210;
-}
-
-.world2 a {
-  text-decoration: none;
-  color: #f72210;
-}
-
-.anchor a {
+.anchor,
+.anchor3, a {
   color: black;
 }
 
 .anchor2 a {
   text-decoration: none;
-  color: black;
-}
-
-.anchor3 a {
   color: black;
 }
 
@@ -77,18 +57,11 @@ nav {
   font-weight: bold;
 }
 
-.second-grid a:hover {
-  color: #f72210;
-}
-
-.first-grid {
-  background-color: #f72210;
-  font-size: 1.5rem;
-}
-
-.second-grid {
-  background-color: #fff;
-  font-size: 1.5rem;
+.newsweek,
+.world,
+.world2, a:hover {
+ color:black;
+ 
 }
 
 .subscribe-nav {
@@ -204,18 +177,14 @@ nav {
   text-decoration: underline red;
 }
 
-.anchor2 {
+.anchor2,
+.anchor3 {
   color: black;
   font-size: 0.9rem;
 }
 
 .anchor2 a:hover {
   color: red;
-}
-
-.anchor3 {
-  color: black;
-  font-size: 0.9rem;
 }
 
 .anchor3 a:hover {
@@ -236,7 +205,8 @@ nav {
   height: 100px;
 }
 
-.more-stories-image {
+.more-stories-image,
+.putin {
   height: 150px;
   width: 150px;
   padding-top: 1em;
@@ -302,11 +272,7 @@ nav {
   top: 1em;
 }
 
-.division {
-  font-size: 1.5rem;
-  color: #f72210;
-}
-
+.division,
 .division1 {
   font-size: 1.5rem;
   color: #f72210;
@@ -374,8 +340,9 @@ nav {
   word-spacing: 10px;
 }
 
-.button {
-  color: #f72210;
+.button3 {
+  color: white;
+  background-color: #f72210;
 }
 
 .news-image1 {
@@ -392,12 +359,6 @@ nav {
   margin: 0 0 0 17em;
   position: absolute;
   bottom: 7em;
-}
-
-.sign-up-div {
-  position: absolute;
-  bottom: 5em;
-  left: 20em;
 }
 
 .large-screen-nav {
@@ -434,6 +395,36 @@ svg {
   font-size: 25px;
 }
 
+.b1 {
+  background-color: #f4f5f6 !important;
+}
+
+.second-sponsored {
+  position: relative;
+}
+
+.card-paragraph {
+  position: absolute;
+  left: 3.5em;
+  bottom: 5em;
+}
+
+.button2 {
+  background-color: #666666 !important ;
+  color: white !important;
+}
+
+.sponsored-insight {
+  margin-top: -1em;
+  background-color: #ecf5fb;
+  color: #32688a;
+  width: 180px;
+}
+
+.first {
+  background-color: #f4f5f6;
+}
+
 @media only screen and (max-width: 486px) {
   .below {
     display: flex;
@@ -454,7 +445,8 @@ svg {
     display: none !important;
   }
 
-  .more-stories-image {
+  .more-stories-image,
+  .putin {
     height: 100px;
     width: 100px;
     padding-top: 0.1em;
@@ -477,7 +469,7 @@ svg {
   }
 
   .paragraph {
-    font-size: 0.6rem;
+    font-size: 13px;
     color: black;
   }
 
@@ -502,24 +494,13 @@ svg {
   .sub-div {
     position: absolute;
     left: -14em;
-    top: 15em;
+    top: 10em;
     margin-bottom: -15em;
-  }
-
-  .sign-up-div {
-    position: absolute;
-    left: 3em;
-    top: 14em;
   }
 
   .news-image1 {
     height: 150px;
     width: 250px;
-  }
-
-  .newsletter {
-    padding-top: 2em;
-    margin-bottom: 12em;
   }
 
   .large-screen-nav {
@@ -528,6 +509,45 @@ svg {
 
   .second-nav {
     display: none !important;
+  }
+
+  .first {
+    margin-top: 10px;
+    margin-bottom: 50px;
+  }
+
+  .newsletter {
+    margin-bottom: 100px;
+  }
+
+  .card-image1 {
+    width: 100% !important;
+    height: 100px !important;
+  }
+
+  .sign-up-div {
+    margin-top: 2em;
+    margin-left: -15em;
+  }
+
+  .button {
+    color: white;
+    background-color: #f72210;
+    width: 170px;
+    margin-left: 25%;
+  }
+
+  .button3 {
+    margin-left: 5em;
+  }
+
+  .heroes {
+    margin-top: 6em;
+  }
+
+  .aside-text {
+    position: absolute;
+    top: 1em;
   }
 }
 
@@ -604,6 +624,7 @@ svg {
 
   .first {
     position: relative;
+    margin-bottom: 2em;
   }
 
   .small-size {
@@ -617,7 +638,7 @@ svg {
   .sub-div {
     position: absolute;
     left: -15em;
-    bottom: -1em;
+    bottom: 1em;
   }
 
   div.indepth {
@@ -634,11 +655,22 @@ svg {
   .right-nav i {
     font-size: 25px;
   }
+
+  .button {
+    color: white;
+    background-color: #f72210;
+    width: 170px;
+    margin-left: 25%;
+  }
 }
 
 @media only screen and (max-width: 991px) {
   body {
     overflow-x: hidden;
+  }
+
+  .second-nav {
+    display: none;
   }
 
   .opinion-text {
@@ -668,6 +700,47 @@ svg {
     justify-content: center;
     align-items: center;
   }
+
+  .card-image1 {
+    width: 200px;
+    height: 300px;
+  }
+
+  .newsletter {
+    position: relative;
+  }
+
+  .sign-up-div {
+    position: absolute;
+    left: 16em;
+    top: 7em;
+  }
+
+  .button {
+    color: white;
+    background-color: #f72210;
+    width: 170px;
+    margin-left: 25%;
+  }
+
+  .putin {
+    height: 80px;
+    width: 120px;
+  }
+
+  .height1 {
+    height: 6em;
+  }
+
+  .aside-text {
+    position: absolute;
+    left: 13em;
+    bottom: 0.4em;
+  }
+
+  .anchor2 {
+    font-size: 11px;
+  }
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1500px) {
@@ -692,8 +765,35 @@ svg {
     top: 2em;
   }
 
-  .sign-up-div {
+  .newsletter {
     position: relative;
-    top: 2em;
+  }
+
+  .card-image1 {
+    width: 200px;
+    height: 300px;
+  }
+
+  .sign-up-div {
+    position: absolute;
+    left: 16em;
+    top: 7em;
+  }
+
+  .twenty {
+    position: absolute;
+    left: 15em;
+  }
+
+  .newsweek {
+    font-size: 1.5em;
+    color: #f72210;
+    position: absolute;
+  }
+
+  .button {
+    color: #f72210;
+    background-color: white;
+    width: 170px;
   }
 }
