@@ -16,11 +16,6 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.featured a,
-.top-story a {
-  font-family: "Roboto Condensed", sans-serif;
-}
-
 nav {
   width: 100%;
 }
@@ -71,6 +66,11 @@ a {
 .world a:hover,
 .newsweek a:hover {
   color: #f72210;
+}
+
+.featured a,
+.top-story a {
+  font-family: "Roboto Condensed", sans-serif;
 }
 
 .subscribe-nav {
