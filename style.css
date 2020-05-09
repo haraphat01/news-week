@@ -11,6 +11,16 @@ body {
   margin: 0 auto !important;
 }
 
+.featured P,
+.top-story P {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.featured a,
+.top-story a {
+  font-family: "Roboto Condensed", sans-serif;
+}
+
 nav {
   width: 100%;
 }
@@ -29,12 +39,11 @@ nav {
   color: #7c7c7c !important;
 }
 
-.newsweek,
-.world,
-.world2,
-a {
-  text-decoration: #f72210;
-  color: black;
+.world2 a,
+.world a,
+.newsweek a {
+  text-decoration: none;
+  color: #f72210;
 }
 
 .anchor,
@@ -58,11 +67,10 @@ a {
   font-weight: bold;
 }
 
-.newsweek,
-.world,
-.world2,
-a:hover {
-  color: black;
+.world2 a:hover,
+.world a:hover,
+.newsweek a:hover {
+  color: #f72210;
 }
 
 .subscribe-nav {
@@ -411,7 +419,7 @@ svg {
 }
 
 .button2 {
-  background-color: #666666 !important ;
+  background-color: #666 !important;
   color: white !important;
 }
 
@@ -764,10 +772,6 @@ svg {
     position: absolute;
     right: 5em;
     top: 2em;
-  }
-
-  .newsletter {
-    position: relative;
   }
 
   .card-image1 {
