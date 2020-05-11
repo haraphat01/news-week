@@ -433,6 +433,7 @@ svg {
 .first {
   background-color: #f4f5f6;
   position: relative;
+  height: 25em;
 }
 
 .small-size {
@@ -453,15 +454,11 @@ svg {
   left: 5em;
 }
 
-.first {
-  height: 25em;
-}
-
 @media only screen and (max-width: 486px) {
   body {
     overflow-x: hidden;
   }
-  
+
   .below {
     display: flex;
     position: relative;
@@ -497,6 +494,7 @@ svg {
   .anchor2 {
     color: black;
     font-size: 0.8rem;
+    margin-top: 3em;
   }
 
   .anchor3 {
@@ -563,6 +561,7 @@ svg {
 
   .button3 {
     margin-left: 5em;
+    text-align: center;
   }
 
   .heroes {
@@ -577,14 +576,6 @@ svg {
   .sub-div {
     z-index: 3;
   }
-
-  .button3 {
-    text-align: center;
-  }
-
-  
-
-  
 }
 
 @media only screen and (max-width: 767px) {
@@ -665,6 +656,9 @@ svg {
     margin-top: 0;
     margin-left: 35%;
     margin-bottom: 35%;
+    z-index: 0;
+    position: absolute;
+    left: 19%;
   }
 
   div.indepth {
@@ -684,7 +678,7 @@ svg {
 
   .anchor2 {
     position: relative;
-    top: 2em;
+    top: -2em;
   }
 
   .button {
@@ -711,12 +705,6 @@ svg {
     left: 2em;
     top: 3em;
     left: -5%;
-  }
-
-  .small-size2 {
-    z-index: 0;
-    position: absolute;
-    left: 19%;
   }
 }
 
