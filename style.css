@@ -656,9 +656,10 @@ svg {
     margin-top: 0;
     margin-left: 35%;
     margin-bottom: 35%;
-    z-index: 0;
     position: absolute;
-    left: 19%;
+    z-index: 1;
+    top: 3em;
+    left: -5%;
   }
 
   div.indepth {
@@ -699,12 +700,11 @@ svg {
     text-align: center;
   }
 
-  .small-size {
+  .small-size2 {
     z-index: 1;
     position: absolute;
-    left: 2em;
     top: 3em;
-    left: -5%;
+    left: 25%;
   }
 }
 
