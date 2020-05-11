@@ -432,9 +432,36 @@ svg {
 
 .first {
   background-color: #f4f5f6;
+  position: relative;
+}
+
+.small-size {
+  height: 200px;
+  width: 150px;
+  margin-top: 0;
+  z-index: 1;
+  position: absolute;
+  left: 7em;
+  top: 3em;
+}
+
+.small-size2 {
+  height: 200px;
+  width: 150px;
+  z-index: 0;
+  position: absolute;
+  left: 5em;
+}
+
+.first {
+  height: 25em;
 }
 
 @media only screen and (max-width: 486px) {
+  body {
+    overflow-x: hidden;
+  }
+  
   .below {
     display: flex;
     position: relative;
@@ -500,13 +527,6 @@ svg {
     font-size: 0.7rem;
   }
 
-  .sub-div {
-    position: absolute;
-    left: -14em;
-    top: 10em;
-    margin-bottom: -15em;
-  }
-
   .news-image1 {
     height: 150px;
     width: 250px;
@@ -518,11 +538,6 @@ svg {
 
   .second-nav {
     display: none !important;
-  }
-
-  .first {
-    margin-top: 10px;
-    margin-bottom: 50px;
   }
 
   .newsletter {
@@ -558,6 +573,18 @@ svg {
     position: absolute;
     top: 1em;
   }
+
+  .sub-div {
+    z-index: 3;
+  }
+
+  .button3 {
+    text-align: center;
+  }
+
+  
+
+  
 }
 
 @media only screen and (max-width: 767px) {
@@ -571,7 +598,8 @@ svg {
   }
 
   .newsletter {
-    margin-top: 1em;
+    margin-top: 3em;
+    padding-bottom: 2em;
   }
 
   .world {
@@ -631,23 +659,12 @@ svg {
     bottom: 2em;
   }
 
-  .first {
-    position: relative;
-    margin-bottom: 2em;
-  }
-
   .small-size {
     height: 200px;
     width: 150px;
     margin-top: 0;
     margin-left: 35%;
     margin-bottom: 35%;
-  }
-
-  .sub-div {
-    position: absolute;
-    left: -15em;
-    bottom: 1em;
   }
 
   div.indepth {
@@ -665,11 +682,41 @@ svg {
     font-size: 25px;
   }
 
+  .anchor2 {
+    position: relative;
+    top: 2em;
+  }
+
   .button {
     color: white;
     background-color: #f72210;
     width: 170px;
     margin-left: 25%;
+  }
+
+  .sub-div {
+    z-index: 3;
+    position: absolute;
+    left: -15em;
+    margin-top: 9em;
+  }
+
+  .button3 {
+    text-align: center;
+  }
+
+  .small-size {
+    z-index: 1;
+    position: absolute;
+    left: 2em;
+    top: 3em;
+    left: -5%;
+  }
+
+  .small-size2 {
+    z-index: 0;
+    position: absolute;
+    left: 19%;
   }
 }
 
@@ -749,6 +796,11 @@ svg {
 
   .anchor2 {
     font-size: 11px;
+  }
+
+  .sub-div {
+    position: absolute;
+    top: 5em;
   }
 }
 
