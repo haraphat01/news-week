@@ -3,6 +3,7 @@
 }
 
 body {
+  width: 100%;
   min-width: 300px;
   max-width: 1300px;
   color: black;
@@ -582,6 +583,7 @@ svg {
   body {
     overflow-x: hidden;
     line-height: 0.5em;
+    width: 100%;
   }
 
   .large-screen-nav {
@@ -609,6 +611,10 @@ svg {
 
   .debate-section {
     position: relative;
+  }
+
+  .heroes {
+    margin-top: 4em;
   }
 
   .text-xl-center {
