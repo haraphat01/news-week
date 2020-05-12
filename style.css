@@ -10,15 +10,12 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   line-height: 1em;
   margin: 0 auto !important;
+  overflow-x: hidden;
 }
 
 .featured p,
 .top-story p {
   font-family: Arial, Helvetica, sans-serif;
-}
-
-nav {
-  width: 100%;
 }
 
 .navigation {
@@ -726,7 +723,7 @@ svg {
   .opinion-text {
     position: absolute;
     left: 9em;
-    bottom: 2em;
+    bottom: 3em;
   }
 
   .card-picture {
@@ -855,5 +852,16 @@ svg {
   .card-picture {
     height: 300px !important;
     width: 180px !important;
+  }
+
+  .opinion-text {
+    position: absolute;
+    left: 7em;
+    bottom: 0.5em;
+    line-height: 20px;
+  }
+
+  .anchor2 {
+    font-size: 11px;
   }
 }
