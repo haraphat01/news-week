@@ -135,7 +135,6 @@ a {
   color: #7c7c7c;
 }
 
-
 .subscribe-p {
   font-size: 1.3rem;
   position: absolute;
@@ -151,8 +150,6 @@ a {
   width: 90px;
   height: 90px;
 }
-
- 
 
 .fauzi {
   border-top: 1px solid #7c7c7c;
@@ -257,7 +254,6 @@ a {
   font-size: 1rem;
 }
 
-
 .debate1 {
   border-top: 4px solid #f92859;
   border-bottom: 4px double #e2e2e2;
@@ -291,11 +287,6 @@ a {
 .features {
   color: black;
   font-size: 1.3rem;
-}
-
-.div-height {
-  height: 18em;
-  margin-top: 1em;
 }
 
 .latest-news-div {
@@ -418,35 +409,24 @@ svg {
 .first {
   background-color: #f4f5f6;
   position: relative;
-  height: 25em;
-}
-
-
-
-.sub-div {
-  margin: -4em 0 0 17em;
-  position: absolute;
-  bottom: 7em;
-  z-index: 3;
-}
-
-.middle {
-  text-align: center;
-  margin: 0 auto;
+  
 }
 
 .small-size2 {
-  z-index: 1;
+  height: 200px;
+  width: 200px;
+  left: 3em;
   position: absolute;
-  top: 1em;
-  left: 2em;
+  
 }
 
 .small-size {
+  height: 200px;
+  width: 200px;
   position: absolute;
-  z-index: 1;
+  left: 4em;
   top: 2em;
-  left: 5em;
+  
 }
 
 @media only screen and (max-width: 486px) {
@@ -560,7 +540,6 @@ svg {
   }
 
   .heroes {
-    
     padding-top: 3em;
   }
 
@@ -568,11 +547,7 @@ svg {
     margin-top: -3em;
   }
 
-  .middle {
-    margin-left: -5em;
-  }
-
- 
+  
 }
 
 @media only screen and (max-width: 767px) {
@@ -679,13 +654,6 @@ svg {
     margin-left: 25%;
   }
 
-  .sub-div {
-    z-index: 3;
-    position: absolute;
-    left: -15em;
-    bottom: 3em;
-  }
-
   .button3 {
     text-align: center;
   }
@@ -693,11 +661,6 @@ svg {
   .aside-text {
     position: absolute;
     top: 3em;
-  }
-
-  .middle {
-    position: relative;
-    left: 4em;
   }
 }
 
@@ -779,8 +742,6 @@ svg {
     font-size: 11px;
   }
 
-  
-
   .latest-news-text {
     position: absolute;
     left: 10em;
@@ -834,7 +795,7 @@ svg {
   .newsweek {
     font-size: 1.5em;
     color: #f72210;
-    position: absolute;
+   
   }
 
   .button {
@@ -864,4 +825,5 @@ svg {
     left: 10em;
     top: 2em;
   }
+  
 }
